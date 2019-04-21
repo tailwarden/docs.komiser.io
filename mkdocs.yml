@@ -1,0 +1,13 @@
+site_name: Komiser
+theme:
+  favicon: 'images/favicon.ico'
+  name: 'material'
+  palette:
+    primary: 'purple'
+    accent: 'purple'
+nav:
+    - Overview: overview.md
+    - Getting Started: getting_started.md
+    - Komiser Cloud: komiser_cloud.md
+    - Tutorials: tutorials.md
+    - Contributing: contributing.md
