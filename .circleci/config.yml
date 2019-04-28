@@ -8,7 +8,7 @@ jobs:
       - checkout
       - run:
           name: Install MkDocs
-          command: pip install mkdocs && mkdocs --version
+          command: pip install mkdocs mkdocs-material && mkdocs --version
       - run:
           name: Build
           command: mkdocs build
