@@ -1,17 +1,7 @@
-# Komiser Community
+# Get Started
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## Contribute to the project
 
-## Commands
+There are many ways to contribute to the Komiser project.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Before raising a PR or an issue request that you read our [Contributing guide](https://github.com/mlabouardy/komiser) which applies to every Komiser GitHub repository. We have a wide range of suggestions for contributing to the project and community and only some of those involve writing code.

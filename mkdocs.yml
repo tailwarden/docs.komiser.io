@@ -1,13 +1,34 @@
-site_name: Komiser
+site_name: 'Komiser'
+site_description: 'Cloud Environment Inspector'
+site_author: 'Mohamed Labouardy'
+site_url: 'https://komiser.io'
+copyright: 'Copyright &copy; 2019 Komiser'
 theme:
   favicon: 'images/favicon.ico'
+  logo: 'images/logo.png'
   name: 'material'
   palette:
-    primary: 'purple'
-    accent: 'purple'
+    primary: 'indigo'
+    accent: 'indigo'
 nav:
-    - Overview: overview.md
     - Getting Started: getting_started.md
+    - Providers:
+        - 'AWS': 'providers/aws.md'
     - Komiser Cloud: komiser_cloud.md
     - Tutorials: tutorials.md
     - Contributing: contributing.md
+markdown_extensions:
+  - admonition
+repo_name: 'mlabouardy/komiser'
+repo_url: 'https://github.com/mlabouardy/komiser'
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/mlabouardy/komiser'
+    - type: 'twitter'
+      link: 'https://twitter.com/mlabouardy'
+    - type: 'linkedin'
+      link: 'https://www.linkedin.com/in/mlabouardy/'
+google_analytics:
+  - 'UA-57902136-18'
+  - 'auto'

@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: python:2.7
+    working_directory: ~/docs.komiser.io
+    steps:
+      - checkout
+      - run:
+          name: Install MkDocs
+          command: pip install mkdocs && mkdocs --version
+      - run:
+          name: Build
+          command: mkdocs build
+      - run:
+          name: Install AWS CLI
+          command: |
+            pip install awscli
+      - run:
+          name: Push to S3 bucket
+          command: aws s3 cp --recursive site/ s3://docs.komiser.io --region eu-west-3

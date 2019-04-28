@@ -1,17 +1,5 @@
 # Komiser Cloud
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+The version is currently only available through the preview. Be the first to access new Komiser features.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftBUYiV_7h-kmD7O6QcPCLS1Ewwv_cXALLvn4WF9zdu7In4Q/viewform?embedded=true" width="640" height="895" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
