@@ -32,3 +32,12 @@ When using the CLI you'll generally need your AWS credentials to authenticate wi
 * Shared Credentials file (~/.aws/credentials) - This file stores your credentials based on a profile name and is useful for local development.
 
 * EC2 Instance Role Credentials - Use EC2 Instance Role to assign credentials to application running on an EC2 instance. This removes the need to manage credential files in production.
+
+## Docker
+```
+docker run -d -p 3000:3000 --name komiser \ 
+-e AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE \
+-e AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY \
+-e AWS_DEFAULT_REGION=us-west-2 \
+mlabouardy/komiser:2.0.0
+```
