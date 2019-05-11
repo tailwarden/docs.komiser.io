@@ -14,6 +14,7 @@ nav:
     - Getting Started: getting_started.md
     - Providers:
         - 'AWS': 'providers/aws.md'
+        - 'GCP': 'providers/gcp.md'
     - Komiser Cloud: komiser_cloud.md
     - Tutorials: tutorials.md
     - Contributing: contributing.md
