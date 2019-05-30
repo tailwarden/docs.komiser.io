@@ -23,6 +23,38 @@ region = <AWS region>
 komiser start --port 3000
 ```
 
+## Multiple AWS Accounts Support
+
+Komiser support multiple AWS accounts through named profiles that are stored in the `config` and `credentials files`. You can configure additional profiles by using `aws configure` with the `--profile` option, or by adding entries to the `config` and `credentials` files.
+
+The following example shows a credentials file with 3 profiles (production, staging & sandbox accounts):
+
+```
+[Production]
+aws_access_key_id=<AWS_ACCESS_KEY_ID>
+aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
+
+[Staging]
+aws_access_key_id=<AWS_ACCESS_KEY_ID>
+aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
+
+[Sandbox]
+aws_access_key_id=<AWS_ACCESS_KEY_ID>
+aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
+```
+
+To enable multiple AWS accounts feature, add the --multiple option to Komiser:
+
+```
+komiser start --port 3000 --redis localhost:6379 --duration 30 --multiple
+```
+
+* If you point your browser to http://localhost:3000, you should be able to see your accounts:
+
+<p align="center">
+    <img src="https://s3.eu-west-3.amazonaws.com/komiser-assets/images/dashboard-aws-multiple.png"/>
+</p>
+
 ## Configuring Credentials
 
 When using the CLI you'll generally need your AWS credentials to authenticate with AWS services. Komiser supports multiple methods of supporting these credentials. By default the CLI will source credentials automatically from its default credential chain.
