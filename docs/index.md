@@ -24,6 +24,7 @@ Komiser support multiple cloud providers:
 
 * AWS
 * GCP
+* OVH
 * Azure
 * IBM
 * Alibaba Cloud
