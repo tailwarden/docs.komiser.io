@@ -1,5 +1,7 @@
 # Komiser Cloud
 
-The version is currently only available through the preview. Be the first to access new Komiser features.
+Komiser EE is available in private beta test stage, sign in at [https://cloud.komiser.io](https://cloud.komiser.io)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSftBUYiV_7h-kmD7O6QcPCLS1Ewwv_cXALLvn4WF9zdu7In4Q/viewform?embedded=true" width="640" height="895" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<p align="center">
+    <img src="https://komiser-assets.s3.eu-west-3.amazonaws.com/images/komiseree.png"/>
+</p>
