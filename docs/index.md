@@ -18,7 +18,7 @@ Stay under budget by uncovering hidden costs, monitoring increases in spend, and
 * Analyze and manage cloud cost, usage, security, and governance in one place.
 * Control your usage and create visibility across all used services to achieve maximum cost-effectiveness.
 * Detect potential vulnerabilities that could put your cloud environment at risk.
-* Get a deep understanding of how you spend on the AWS, GCP and Azure.
+* Get a deep understanding of how you spend on the AWS, GCP, OVH, DigitalOcean and Azure.
 
 ** Support **
 
@@ -27,6 +27,7 @@ Komiser support multiple cloud providers:
 * AWS
 * GCP
 * OVH
+* DigitalOcean
 * Azure
 * IBM
 * Alibaba Cloud
