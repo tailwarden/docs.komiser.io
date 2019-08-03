@@ -18,6 +18,7 @@ nav:
         - 'OVH': 'providers/ovh.md'
         - 'DigitalOcean': 'providers/digitalocean.md'
     - Komiser Cloud: komiser_cloud.md
+    - Alerts: alerts.md
     - Tutorials: tutorials.md
     - Contributing: contributing.md
 markdown_extensions:
