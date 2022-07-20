@@ -4,7 +4,7 @@ version: 2.1
 executors:
   environment:
     docker:
-      - image: circleci/python@2.0.3
+      - image: python:3.8.2
     resource_class: large
     working_directory: ~/docs.komiser.io
 
