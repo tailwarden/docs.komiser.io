@@ -1,5 +1,5 @@
 <a href="https://komiser.io">
-  <img src="https://komiser-assets-cdn.s3.eu-central-1.amazonaws.com/images/logo.png" width="200" align="right" alt="Amp Logo">
+  <img src="https://komiser-assets-cdn.s3.eu-central-1.amazonaws.com/images/logo.png" width="100" align="right" alt="Amp Logo">
 </a>
 
 <a href="https://komiser.io"><img alt="Amp" src="https://komiser-assets-cdn.s3.eu-central-1.amazonaws.com/images/komiser-oraculi.png" width="120" valign="middle"></a>
