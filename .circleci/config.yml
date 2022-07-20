@@ -1,9 +1,16 @@
-version: 2
+version: 2.1
+
+
+executors:
+  environment:
+    docker:
+      - image: circleci/python@2.0.3
+    resource_class: large
+    working_directory: ~/docs.komiser.io
+
 jobs:
   build:
-    docker:
-      - image: python:2.7
-    working_directory: ~/docs.komiser.io
+    executor: environment
     steps:
       - checkout
       - run:
