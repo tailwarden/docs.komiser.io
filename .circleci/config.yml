@@ -25,4 +25,7 @@ jobs:
             pip install awscli
       - run:
           name: Push to S3 bucket
-          command: aws s3 cp --recursive site/ s3://docs.komiser.io --region eu-west-3
+          command: |
+            aws s3 cp --recursive site/ s3://www.docs.komiser.io --region eu-central-1
+            aws configure set preview.cloudfront true
+            aws cloudfront create-invalidation --distribution-id E3EWXSQNWBIVSU --paths "/*"
