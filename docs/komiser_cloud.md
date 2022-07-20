@@ -1,7 +1,7 @@
-# Komiser Cloud
+# Oraculi Cloud
 
-Komiser EE is available in private beta test stage, sign in at [https://cloud.komiser.io](https://cloud.komiser.io)
+Oraculi cloud is available in private beta test stage, sign in at [https://cloud.oraculi.io/](https://cloud.oraculi.io/)
 
 <p align="center">
-    <img src="https://komiser-assets.s3.eu-west-3.amazonaws.com/images/komiseree.png"/>
+    <img src="https://komiser-assets-cdn.s3.eu-central-1.amazonaws.com/images/komiser-oraculi.png"/>
 </p>
