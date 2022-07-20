@@ -6,7 +6,7 @@ This repository contains the files required to build the Komiser Documentation H
 
 - Firstly, go ahead and **fork** the docs repository. Make any changes you want to your fork, and when you're ready to send those changes to us, go to your fork and create a new pull request.
 
-- If it takes longer than expected to get feedback from the `Oraculi` team, head over to the [Discord Server](https://discord.gg/Xz2Ru8qt) and **ping** an Oraculi staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
+- If it takes longer than expected to get feedback from the `Oraculi` team, head over to the [Discord Server](https://discord.oraculi.io) and **ping** an Oraculi staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
 
 - Once your pull request is created, an `Oraculi` reviewer will provide clear and actionable feedback to you. As the owner of the pull request, it is your responsibility to modify it to address the feedback that has been provided.
 
