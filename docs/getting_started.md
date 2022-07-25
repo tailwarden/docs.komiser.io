@@ -42,11 +42,18 @@ There is no "latest" tag, so find the version of the CLI you want to use from th
 docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.5.0
 ```
 
-#### Docker installation video tuturial:
+#### Docker installation video tutorial:
 
 <a href="https://www.loom.com/share/5ce75af3a4a34dffb923f126019b0f7b">
     <p>Komiser: Docker deployment 📦 - Watch Video</p>
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5ce75af3a4a34dffb923f126019b0f7b-1658315486250-with-play.gif">
+  </a>
+
+#### Kubernetes (Helm chart) installation video tutorial:
+
+<a href="https://www.loom.com/share/da9871ac41f94f59bc48a62da8fd1df9">
+    <p>Komiser: Kubernetes deployment (Helm) - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/da9871ac41f94f59bc48a62da8fd1df9-with-play.gif">
   </a>
 
 
