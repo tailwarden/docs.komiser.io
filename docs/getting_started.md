@@ -52,7 +52,7 @@ docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.5.0
 #### Kubernetes (Helm chart) EKS installation video tutorial:
 
 <a href="https://www.loom.com/share/45277c0609cd47508d1855a73ec61309">
-    <p>Kubernetes (Helm chart) EKS installation video tutorial - Watch Video</p>
+    <p>EKS - Watch Video</p>
     <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
   </a>
 
