@@ -51,11 +51,10 @@ docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.5.0
 
 #### Kubernetes (Helm chart) installation video tutorial:
 
-<a href="https://www.loom.com/share/da9871ac41f94f59bc48a62da8fd1df9">
-    <p>Komiser: Kubernetes deployment (Helm) - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/da9871ac41f94f59bc48a62da8fd1df9-with-play.gif">
+<a href="https://www.loom.com/share/45277c0609cd47508d1855a73ec61309">
+    <p>Kubernetes (Helm chart) installation video tutorial - Watch Video</p>
+    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
   </a>
-
 
 ### Build from source
 
