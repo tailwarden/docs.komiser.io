@@ -5,32 +5,40 @@ You can install the CLI with a `curl` utility script or by downloading the binar
 ### Linux:
 
 ```
-wget https://s3.us-east-1.amazonaws.com/komiser/2.5.0/linux/komiser
+wget https://cli.komiser.io/2.9.0/linux/komiser
 ```
 
 ### Windows:
 
 ```
-wget https://s3.us-east-1.amazonaws.com/komiser/2.5.0/windows/komiser
+wget https://cli.komiser.io/2.9.0/windows/komiser -OutFile komiser.exe
 ```
 
 ### Mac OS X:
 
 ```
-wget https://s3.us-east-1.amazonaws.com/komiser/2.5.0/osx/komiser
+wget https://cli.komiser.io/2.9.0/osx/komiser
 ```
 
 !!! Note
     Make sure to add the execution permission to Komiser `chmod +x komiser`.
 
-#### Install Komiser CLI locally:
+
+### Homebrew installation:
+
+```
+brew tap HelloOraculi/komiser
+brew install komiser
+```
+
+### Install Komiser CLI locally:
 
 <a href="https://www.loom.com/share/27d586a54cef49f3b394085afb119afa">
-    <p>Komiser CLI: Installation tutorial  - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/27d586a54cef49f3b394085afb119afa-1658241069897-with-play.gif">
+    <p>Komiser CLI - Watch Video</p>
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/27d586a54cef49f3b394085afb119afa-1658241069897-with-play.gif">
   </a>
 
-### Docker image
+### Docker image 
 
 Komiser is also available as a Docker image:
 
@@ -39,23 +47,22 @@ Komiser is also available as a Docker image:
 There is no "latest" tag, so find the version of the CLI you want to use from the tags page on the Docker Hub. These correspond to the release from GitHub.
 
 ```
-docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.5.0
+docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
 ```
 
-#### Docker installation video tutorial:
+### Docker installation:
 
 <a href="https://www.loom.com/share/5ce75af3a4a34dffb923f126019b0f7b">
-    <p>Komiser: Docker deployment 📦 - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/5ce75af3a4a34dffb923f126019b0f7b-1658315486250-with-play.gif">
+    <p>Docker deployment 📦 - Watch Video</p>
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/5ce75af3a4a34dffb923f126019b0f7b-1658315486250-with-play.gif">
   </a>
 
-#### Kubernetes (Helm chart) installation video tutorial:
+#### Kubernetes (Helm chart) installation:
 
 <a href="https://www.loom.com/share/45277c0609cd47508d1855a73ec61309">
     <p>EKS - Watch Video</p>
-    <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
   </a>
 
-### Build from source
 
 The [contributing guide](https://docs.komiser.io/contributing) has instructions for building from source and for configuring a Golang development environment.
