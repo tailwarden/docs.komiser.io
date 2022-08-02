@@ -35,7 +35,7 @@ brew install komiser
 
 <a href="https://www.loom.com/share/27d586a54cef49f3b394085afb119afa">
     <p>Komiser CLI - Watch Video</p>
-    <img style="max-width:450px;" src="https://cdn.loom.com/sessions/thumbnails/27d586a54cef49f3b394085afb119afa-1658241069897-with-play.gif">
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/27d586a54cef49f3b394085afb119afa-1658241069897-with-play.gif">
   </a>
 
 ### Docker image 
@@ -54,14 +54,14 @@ docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
 
 <a href="https://www.loom.com/share/5ce75af3a4a34dffb923f126019b0f7b">
     <p>Docker deployment 📦 - Watch Video</p>
-    <img style="max-width:450px;" src="https://cdn.loom.com/sessions/thumbnails/5ce75af3a4a34dffb923f126019b0f7b-1658315486250-with-play.gif">
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/5ce75af3a4a34dffb923f126019b0f7b-1658315486250-with-play.gif">
   </a>
 
 #### Kubernetes (Helm chart) installation:
 
 <a href="https://www.loom.com/share/45277c0609cd47508d1855a73ec61309">
     <p>EKS - Watch Video</p>
-    <img style="max-width:450px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
   </a>
 
 
