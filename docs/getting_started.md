@@ -64,5 +64,11 @@ docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
     <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/45277c0609cd47508d1855a73ec61309-with-play.gif">
   </a>
 
+#### Multiple account EKS (Helm chart) installation:
+
+<a href="https://www.loom.com/share/c3d283a0ff9844abab927a5c01cfbaa3">
+    <p>Komiser-cross account configuration</p>
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/c3d283a0ff9844abab927a5c01cfbaa3-with-play.gif">
+  </a>
 
 The [contributing guide](https://docs.komiser.io/contributing) has instructions for building from source and for configuring a Golang development environment.
