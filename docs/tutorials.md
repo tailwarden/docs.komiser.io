@@ -21,3 +21,9 @@
 <center>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/MNvYH9Z4FiE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </center>
+
+## Caching with Redis
+<a href="https://www.loom.com/share/0835b71d02714ac2973a3fd15f68a104">
+    <p>Run Komiser using Redis to cache data - Watch Video</p>
+    <img style="max-width:500px;" src="https://cdn.loom.com/sessions/thumbnails/0835b71d02714ac2973a3fd15f68a104-with-play.gif">
+  </a>

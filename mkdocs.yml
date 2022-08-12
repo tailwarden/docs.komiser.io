@@ -34,12 +34,12 @@ extra:
     - type: 'github'
       icon: fontawesome/brands/github
       link: 'https://github.com/mlabouardy/komiser'
-    - type: 'slack'
-      icon: fontawesome/brands/slack
-      link: 'https://community.komiser.io/'
+    - type: 'discord'
+      icon: fontawesome/brands/discord
+      link: 'https://discord.oraculi.io/'
     - type: 'twitter'
       icon: fontawesome/brands/twitter
-      link: 'https://twitter.com/mlabouardy'
+      link: 'https://twitter.com/HelloOraculi'
     - type: 'linkedin'
       icon: fontawesome/brands/linkedin
-      link: 'https://www.linkedin.com/in/mlabouardy/'
+      link: 'https://www.linkedin.com/company/hellooraculi/about'
