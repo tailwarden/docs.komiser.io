@@ -4,7 +4,7 @@ version: 2.1
 executors:
   environment:
     docker:
-      - image: ubuntu-latest
+      - image: node:14.15.1
     resource_class: large
     working_directory: ~/docs.komiser.io
 
