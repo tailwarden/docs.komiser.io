@@ -10,7 +10,7 @@ const config = {
   tagline: 'The Future of DevOps',
   url: 'https://www.oraculi.io/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
@@ -22,10 +22,10 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-  i18n: {
+   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
-  },
+   },
 
   presets: [
     [
@@ -39,7 +39,6 @@ const config = {
           editUrl:
             'https://github.com/HelloOraculi/oraculi',
         },
-        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -79,11 +78,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/intro',
+                to: '/docs',
               },
               {
                 label: 'Contribute',
-                to: '/docs/contribute',
+                to: '/docs',
               },
             ],
           },
