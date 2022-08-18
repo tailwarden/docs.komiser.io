@@ -1,6 +1,6 @@
 # AWS
 
-## Usage
+## Usage 
 
 * Create an IAM user with the following IAM [policy](https://raw.githubusercontent.com/mlabouardy/komiser/master/policy.json):
 
