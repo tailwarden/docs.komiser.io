@@ -1,3 +1,8 @@
+---
+slug: /docs/how-to-komiser/alerts
+title: community
+sidebar_label: Alerts
+---
 # Daily Budget Alert
 
 Head over to [Your Apps](https://api.slack.com/slack-apps-preview) and click the green “**Create New App**” button. A dialog like this will pop up:

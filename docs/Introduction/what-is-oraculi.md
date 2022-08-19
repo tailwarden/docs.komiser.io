@@ -1,3 +1,9 @@
+---
+slug: /docs/introduction/what-is-oraculi
+title: What is Oraculi?
+sidebar_label: What is Oraculi?
+---
+
 # What is Oraculi
 
 ## TO BE FILLED IN AFTERWARDS

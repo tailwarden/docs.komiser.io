@@ -1,22 +1,27 @@
+---
+slug: /docs/introduction/getting-started
+title: Getting Started
+sidebar_label: Getting Started
+---
 # Getting Started
 
 ## Installation
 
 You can install the CLI with a `curl` utility script or by downloading the binary from the releases page. Once installed you'll get the `komiser` command.
 
-### Linux:
+### Linux
 
 ```
 wget https://cli.komiser.io/2.9.0/linux/komiser
 ```
 
-### Windows:
+### Windows
 
 ```
 wget https://cli.komiser.io/2.9.0/windows/komiser -OutFile komiser.exe
 ```
 
-### Mac OS X:
+### Mac OS X
 
 ```
 wget https://cli.komiser.io/2.9.0/osx/komiser
@@ -26,14 +31,16 @@ wget https://cli.komiser.io/2.9.0/osx/komiser
     Make sure to add the execution permission to Komiser `chmod +x komiser`.
 
 
-### Homebrew installation:
+### Homebrew installation
 
 ```
 brew tap HelloOraculi/komiser
 brew install komiser
 ```
 
-### Install Komiser CLI locally:
+## How to use
+
+### Install Komiser CLI locally
 
 <div style={{
     position: 'relative',
@@ -58,6 +65,67 @@ brew install komiser
   </iframe>
 </div>
 
+#### AWS
+
+* Create an IAM user with the following IAM [policy](https://raw.githubusercontent.com/mlabouardy/komiser/master/policy.json):
+
+```
+wget https://raw.githubusercontent.com/mlabouardy/komiser/master/policy.json
+```
+
+* Add your **Access Key ID** and **Secret Access Key** to *~/.aws/credentials* using this format
+
+``` 
+[default]
+aws_access_key_id = <access key id>
+aws_secret_access_key = <secret access key>
+region = <AWS region>
+```
+
+* That should be it. Try out the following from your command prompt to start the server:
+
+```
+komiser start --port 3000
+```
+
+You can also use Redis as a caching server:
+
+```
+komiser start --port 3000 --redis localhost:6379 --duration 30
+```
+
+* Point your browser to http://localhost:3000
+
+
+#### Multiple AWS Account support for local testing
+Komiser supports multiple AWS accounts through named profiles that are stored in the `config` and `credentials files`. You can configure additional profiles by using `aws configure` with the `--profile` option, or by adding entries to the `config` and `credentials` files.
+
+The following example shows a credentials file with 3 profiles (production, staging & sandbox accounts):
+
+```
+[Production]
+aws_access_key_id=<AWS_ACCESS_KEY_ID>
+aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
+
+[Staging]
+aws_access_key_id=<AWS_ACCESS_KEY_ID>
+aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
+
+[Sandbox]
+aws_access_key_id=<AWS_ACCESS_KEY_ID>
+aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
+```
+
+To enable multiple AWS accounts feature, add the --multiple option to Komiser:
+
+```
+komiser start --port 3000 --redis localhost:6379 --duration 30 --multiple
+```
+
+* If you point your browser to http://localhost:3000, you should be able to see your accounts:
+
+To enable Multiple AWS Account Support for a Komiser deployment in an EKS cluster, check the video below. 
+
 ### Docker image 
 
 Komiser is also available as a Docker image:
@@ -70,7 +138,8 @@ There is no "latest" tag, so find the version of the CLI you want to use from th
 docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
 ```
 
-### Docker installation:
+### Docker installation
+Link to [README](https://github.com/mlabouardy/komiser#docker) file with step by step instructions.
 
 <div style={{
     position: 'relative',
@@ -95,7 +164,8 @@ docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
   </iframe>
 </div>
 
-#### Kubernetes (Helm chart) installation:
+### Kubernetes (Helm chart) installation
+Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#configuration-single-aws-account) file with step by step instructions.
 
 <div style={{
     position: 'relative',
@@ -120,7 +190,8 @@ docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
   </iframe>
 </div>
 
-#### Multiple account EKS (Helm chart) installation:
+### Multiple account EKS (Helm chart) installation
+Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#configuration-multiple-aws-accounts) file with step by step instructions.
 
 <div style={{
     position: 'relative',

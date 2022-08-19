@@ -1,3 +1,8 @@
+---
+slug: /docs/introduction/contribute
+title: contribute
+sidebar_label: Contribute
+---
 # Contribute
 
 This repository contains the files required to build the Komiser Documentation Hub. To any [contributors](https://github.com/komiserio/docs/blob/master/docs/contributing.md) willing for add to the project, before anything else, Thank you!

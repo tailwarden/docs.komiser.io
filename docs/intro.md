@@ -1,11 +1,11 @@
 ---
-slug: /
+slug: /intro
 title: Overview of Oraculi Documentation
 sidebar_label: Overview
 ---
 # Overview
 
-![Oraculi](/../static/img/Dark-mode-big-logo.png)
+![Oraculi](/../static/img/logo-for-intro-page.png)
 
 #### Oraculi cloud is available in private beta test stage, sign in at [https://cloud.komiser.io](https://cloud.oraculi.io/)
 
