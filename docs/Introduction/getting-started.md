@@ -50,7 +50,7 @@ brew install komiser
     overflow:'hidden',
   }}>
   <iframe
-    src='https://www.loom.com/embed/27d586a54cef49f3b394085afb119afa'
+    src='https://www.youtube.com/embed/1QeHTTZNF4o'
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
@@ -153,7 +153,7 @@ Link to [README](https://github.com/mlabouardy/komiser#docker) file with step by
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
-    style={{
+    style
       position: 'absolute',
       top:0,
       left:0,
