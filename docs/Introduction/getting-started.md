@@ -55,7 +55,7 @@ brew install komiser
     webkitallowfullscreen="true"
     frameBorder="0"
     style={{
-      position:'absolute',
+      position: 'absolute',
       top:0,
       left:0,
       width:'100%',
@@ -153,8 +153,8 @@ Link to [README](https://github.com/mlabouardy/komiser#docker) file with step by
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
-    style
-      position:'absolute',
+    style={{
+      position: 'absolute',
       top:0,
       left:0,
       width:'100%',
@@ -180,7 +180,7 @@ Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#conf
     webkitallowfullscreen="true"
     frameBorder="0"
     style={{
-      position:'absolute',
+      position: 'absolute',
       top:0,
       left:0,
       width:'100%',
@@ -206,7 +206,7 @@ Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#conf
     webkitallowfullscreen="true"
     frameBorder="0"
     style={{
-      position:'absolute',
+      position: 'absolute',
       top:0,
       left:0,
       width:'100%',
