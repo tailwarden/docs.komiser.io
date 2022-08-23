@@ -5,7 +5,7 @@ sidebar_label: Overview
 ---
 # Overview
 
-![Oraculi](/../static/img/bigger-logo.png)
+![Oraculi](/../static/img/light-mode-logo.png)
 
 #### Oraculi cloud is available in private beta test stage, sign in at [https://cloud.komiser.io](https://cloud.oraculi.io/)
 

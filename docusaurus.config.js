@@ -1,7 +1,7 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
+// const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
@@ -49,11 +49,20 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+        },
+      },
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/oraculi-logo.svg',
+          src: 'img/light-mode-logo.png',
+          srcDark: 'img/1.svg',
         },
         items: [
           {
@@ -62,11 +71,32 @@ const config = {
             position: 'left',
             label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/mlabouardy/komiser',
-            label: 'GitHub',
+            className: 'pseudo-icon github-icon',
             position: 'right',
+          },
+          {
+            href: 'https://discord.oraculi.io',
+            className: 'pseudo-icon discord-icon',
+            position: 'right',
+          },
+          {
+            type: 'search',
+            position: 'right',
+          },
+          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            label: 'Sign Up',
+            href: 'https://cloud.oraculi.io/signup',
+            position: 'right',
+            className: 'dev-portal-signup dev-portal-link',
+          },
+          {
+            label: 'Login',
+            href: 'https://cloud.oraculi.io/login',
+            position: 'right',
+            className: 'dev-portal-login dev-portal-link',
           },
         ],
       },
@@ -120,5 +150,4 @@ const config = {
       },
     }),
 };
-
 module.exports = config;
