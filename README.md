@@ -38,5 +38,3 @@ npm test
 ## History
 
 ### v1.0.0 (Aug, 2022)
-
-![HELLO](https://youtu.be/yKNxeF4KMsY))

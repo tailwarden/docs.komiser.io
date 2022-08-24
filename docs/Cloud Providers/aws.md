@@ -23,6 +23,32 @@ region = <AWS region>
 komiser start --port 3000
 ```
 
+### Kubernetes (Helm chart) installation
+Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#configuration-single-aws-account) file with step by step instructions.
+
+<div style={{
+    position: 'relative',
+    paddingBottom: '56.25%',
+    paddingTop:'30px',
+    height:0,
+    overflow:'hidden',
+  }}>
+  <iframe
+    src='https://www.youtube.com/embed/3J0t-fWHDbs'
+    allowFullScreen
+    webkitallowfullscreen="true"
+    frameBorder="0"
+    style={{
+      position: 'absolute',
+      top:0,
+      left:0,
+      width:'100%',
+      height:'100%',
+    }}
+  >
+  </iframe>
+</div>
+
 ## Multiple AWS Accounts Support
 
 Komiser support multiple AWS accounts through named profiles that are stored in the `config` and `credentials files`. You can configure additional profiles by using `aws configure` with the `--profile` option, or by adding entries to the `config` and `credentials` files.
@@ -51,9 +77,32 @@ komiser start --port 3000 --redis localhost:6379 --duration 30 --multiple
 
 * If you point your browser to http://localhost:3000, you should be able to see your accounts:
 
-<p align="center">
-    <img src="https://s3.eu-west-3.amazonaws.com/komiser-assets/images/dashboard-aws-multiple.png"/>
-</p>
+
+### Multiple account EKS (Helm chart) installation
+Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#configuration-multiple-aws-accounts) file with step by step instructions.
+
+<div style={{
+    position: 'relative',
+    paddingBottom: '56.25%',
+    paddingTop:'30px',
+    height:0,
+    overflow:'hidden',
+  }}>
+  <iframe
+    src='https://www.youtube.com/embed/pYfjHKM1gzw'
+    allowFullScreen
+    webkitallowfullscreen="true"
+    frameBorder="0"
+    style={{
+      position: 'absolute',
+      top:0,
+      left:0,
+      width:'100%',
+      height:'100%',
+    }}
+  >
+  </iframe>
+</div>
 
 ## Configuring Credentials
 

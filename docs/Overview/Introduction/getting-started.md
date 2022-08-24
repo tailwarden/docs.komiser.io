@@ -1,11 +1,11 @@
 ---
-slug: /docs/introduction/getting-started
-title: Getting Started
-sidebar_label: Getting Started
+slug: /overview/introduction/getting-started
+title: Installation
+sidebar_label: Installation
 ---
-# Getting Started
+# Installation
 
-## Installation
+## Getting started
 
 You can install the CLI with a `curl` utility script or by downloading the binary from the releases page. Once installed you'll get the `komiser` command.
 
@@ -40,7 +40,7 @@ brew install komiser
 
 ## How to use
 
-### Install Komiser CLI locally
+### Komiser CLI
 
 <div style={{
     position: 'relative',

@@ -14,7 +14,7 @@
   --ifm-color-primary-lighter: #5c00d0;
   --ifm-color-primary-lightest: #6800eb;
   --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --docusaurus-highlighted-code-line-bg: rgba(222, 197, 197, 0.1);
 
   /* Theme colors */
   --ifm-color-primary: #A107EA;
@@ -47,7 +47,7 @@
   --docs-color-background-200: #2a2a2a;
   --docs-color-background-300: #2e2e2e;
 
-  --docs-color-code-background: #1e1e1e;
+  --docs-color-code-background: #f7d7d7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -352,3 +352,6 @@ html[data-theme='dark']
   background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' fill='none' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.707 4.293a1 1 0 0 1 0 1.414L9.414 12l6.293 6.293a1 1 0 0 1-1.414 1.414l-7-7a1 1 0 0 1 0-1.414l7-7a1 1 0 0 1 1.414 0Z' fill='%23181818'/%3E%3C/svg%3E");
 }
 
+img[alt=Oraculi] { 
+   width: 550px; 
+  }
