@@ -1,7 +1,11 @@
-# OVH
+# OVHcloud
 
+## Local Komiser CLI (Single Account)
+
+### Create and API
 * Create an API application from [here](https://eu.api.ovh.com/createToken/). 
 
+### Configure correct enviroment variables
 * This CLI will first look for direct instanciation parameters then `OVH_ENDPOINT`, `OVH_APPLICATION_KEY`, `OVH_APPLICATION_SECRET` and `OVH_CONSUMER_KEY` environment variables. If either of these parameter is not provided, it will look for a configuration file of the form:
 
 ```
@@ -22,8 +26,16 @@ consumer_key=my_consumer_key
     * Current user's home directory `~/.ovh.conf`
     * System wide configuration `/etc/ovh.conf`
 
+
+### Run it!
+* That should be it. Try out the following command from your command prompt to start the server:
+
+```
+komiser start --port 3000
+```
+
 * If you point your browser to http://localhost:3000, you should be able to see your projects:
 
 <p align="center">
-    <img src="https://s3.eu-west-3.amazonaws.com/komiser-assets/images/dashboard-ovh.png"/>
+    <img src="https://cdn.komiser.io/images/dashboard-ovh.png"/>
 </p>

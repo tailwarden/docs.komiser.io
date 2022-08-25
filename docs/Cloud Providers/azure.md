@@ -1,4 +1,8 @@
-# Azure
+# Microsoft Azure
+
+## Local Komiser CLI (Single Account)
+
+### Configure environment variables locally
 
 * Set the following environment variables:
   
@@ -7,8 +11,9 @@
 | AZURE_TENANT_ID       | The Azure Active Directory tenant(directory) ID.                 |
 | AZURE_CLIENT_ID       | The client(application) ID of an App Registration in the tenant. |
 | AZURE_CLIENT_SECRET   | A client secret that was generated for the App Registration.     |
-| AZURE_SUBSCRIPTION_ID | Azure subscription ID                                            |
+| AZURE_SUBSCRIPTION_ID | Azure subscription ID                                           
 
+### Run it!
 * That should be it. Try out the following from your command prompt to start the server:
 
 ```

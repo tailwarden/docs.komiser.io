@@ -1,4 +1,4 @@
-# AWS
+# Amazon Web Services
 
 ## Configuring Credentials
 
