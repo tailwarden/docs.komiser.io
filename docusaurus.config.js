@@ -143,10 +143,14 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Company',
             items: [
               {
-                label: 'Jobs',
+                label: 'Careers',
+                href: 'https://www.oraculi.io',
+              },
+              {
+                label: 'Oraculi',
                 href: 'https://www.notion.so/oraculi/Work-at-Oraculi-269b2aca1c844abc822d8b0f73618a6e',
               },
             ],
