@@ -78,6 +78,11 @@ const config = {
             label: 'Docs',
           },
           {
+            label: 'Website',
+            to: 'https://komiser.io/',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/mlabouardy/komiser',
             className: 'pseudo-icon github-icon',
             position: 'right',
