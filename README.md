@@ -1,4 +1,4 @@
-![Example banner](./static/img/docusaurus-oraculi-logo-transparent.png)
+![Readme-banner](./static/img/readme-docu-komiser.png)
 <h1>Official Oraculi Documentation</h1>
 <p>
 Repository for the Oraculi Organization Public Documentation. It is the official Oraculi site for publishing latest news, blog posts, and documentation from our open source community.

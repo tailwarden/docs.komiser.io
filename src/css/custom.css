@@ -356,3 +356,8 @@ img[alt=Oraculi] {
    width: 900px; 
    position: centre;
   }
+
+  img[alt=Readme-banner] { 
+    width: 500px; 
+    position: centre;
+   }
