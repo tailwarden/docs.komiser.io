@@ -1,15 +1,40 @@
-# The Komiser Documentation
+![Readme-banner](./static/img/readme-banner-2.png)
+<h1>Official Oraculi Documentation</h1>
+<p>
+Repository for the Oraculi Organization Public Documentation. It is the official Oraculi site for publishing latest news, blog posts, and documentation from our open source community.
+</p>
 
-This repository contains the files required to build the Komiser Documentation Hub. To any [contributors](https://github.com/komiserio/docs/blob/master/docs/contributing.md) willing for add to the project, before anything else, Thank you!
+</div>
 
-## Contributing to the docs
+## How To Run Tests
 
-- Firstly, go ahead and **fork** the docs repository. Make any changes you want to your fork, and when you're ready to send those changes to us, go to your fork and create a new pull request.
+In order to make sure your changes have not broken anything, you can run the following commands before pushing your changes to gitHub.
 
-- If it takes longer than expected to get feedback from the `Oraculi` team, head over to the [Discord Server](https://discord.oraculi.io) and **ping** an Oraculi staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
+```sh
+npm install
+npm test
+```
 
-- Once your pull request is created, an `Oraculi` reviewer will provide clear and actionable feedback to you. As the owner of the pull request, it is your responsibility to modify it to address the feedback that has been provided.
+### How to Run Locally
 
-- Once the PR is approved, it will be merged to master and you will then become and official contributor, congrats!
+1. Clone this repository: `git clone "https://github.com/HelloOraculi/docusaurus.git"`
+2. Run the commands :
+    1. `npm install`
+    2. `npm run docusaurus:build`
+    3. `npm run docusaurus:serve`
+3. The site will be running locally on `http://localhost:3000`
 
-If you are in need of any assiatance at any stage of you contributing experience please don't hesitate to reach out to anybody in the `#contributors` discord channel. Or directly to `@mlabouardy` or `@JakePage` who will always be happy to help. 
+### How To Contribute To the Documentation
+
+1. Fork this repository
+2. Create your documentation branch: `git checkout -b branch-name`
+3. Make changes to the documentation in markdown
+4. Add changes to the staging area `git add .`
+5. Commit your changes using the command `git commit -m 'commit message'`
+6. Push your changes to gitHub `git push origin branch-name`
+7. Create new Pull Request
+
+
+## History
+
+### v1.0.0 (Aug, 2022)
