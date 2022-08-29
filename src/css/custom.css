@@ -17,7 +17,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(222, 197, 197, 0.1);
 
   /* Theme colors */
-  --ifm-color-primary: #A107EA;
+  --ifm-color-primary: #009999;
   --ifm-color-primary-dark: #1959fc;
   --ifm-color-primary-darker: #0f51f8;
   --ifm-color-primary-darkest: #0042e7;
@@ -353,5 +353,6 @@ html[data-theme='dark']
 }
 
 img[alt=Oraculi] { 
-   width: 800px; 
+   width: 900px; 
+   position: centre;
   }

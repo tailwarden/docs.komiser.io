@@ -5,31 +5,26 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'Installations',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Komiser was designed to be light-weight and easily installed so 
+        you can  start getting cloud insights as quickly as possible.
       </>
     ),
   },
   {
     title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Komiser enables you to have a clear view into your cloud account, gives helpful advice to reduce the cost and secure your environment.
       </>
     ),
   },
   {
     title: 'The Future of DevOps',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Komiser is the first step in our plan to create the future generation of Developers and DevOps engineers. The future of DevOps can only be built with the understanding of what we actually have in our cloud accounts, and Komiser is here to help with exactly that.
       </>
     ),
   },
@@ -39,7 +34,6 @@ function Feature({Svg, title, description}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>
