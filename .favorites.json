@@ -6,5 +6,69 @@
         "workspaceRoot": null,
         "workspacePath": null,
         "id": "gUVnx1wBjFE4rkzJ"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/docs",
+        "parent_id": null,
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": "docs",
+        "id": "xUkX76CJ9avVowZ4"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/.circleci",
+        "parent_id": null,
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": ".circleci",
+        "id": "bVwo31WX4dcM5rjx"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/.docusaurus",
+        "parent_id": null,
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": ".docusaurus",
+        "id": "b4Ku2Mnz5HhWdUfT"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/.vscode",
+        "parent_id": null,
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": ".vscode",
+        "id": "RFuX79fd1S0vmj4O"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/blog",
+        "parent_id": null,
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": "blog",
+        "id": "9d1esBThpfKoFa7b"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/build",
+        "parent_id": null,
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": "build",
+        "id": "6cd0vWpZ57sMT2BE"
+    },
+    {
+        "type": "Directory",
+        "name": "/Users/jakepage/helloOraculi/docs/docs",
+        "parent_id": "gUVnx1wBjFE4rkzJ",
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": "docs",
+        "id": "bB8wkXTmEIi95dGj"
+    },
+    {
+        "type": "File",
+        "name": "/Users/jakepage/helloOraculi/docs/docs/Cloud Providers/aws.md",
+        "parent_id": "gUVnx1wBjFE4rkzJ",
+        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspacePath": "docs/Cloud Providers/aws.md",
+        "id": "OgSYJN4PVokum1vz"
     }
 ]
