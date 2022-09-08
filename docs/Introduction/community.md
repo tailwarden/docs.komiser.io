@@ -15,7 +15,7 @@ on cloud providers by bringing them accessible but state-of-the-art DevOps knowl
 the shared knowledge that each community members brings along with them.
 ``` 
 
-Below are a couple of ways you can take part and/or [contribute](/docs/Introduction/contribute.md) to the community.  
+Below are a couple of ways you can take part and/or [contribute](/docs/Contributing/contribute.md) to the community.  
 
 ## Discord Server
 
