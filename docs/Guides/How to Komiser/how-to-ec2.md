@@ -32,7 +32,8 @@ Check out the video below to learn some tips, which applied alongside Komiser ca
   </iframe>
 </div>
 
-### Cheatsheet to keep in mind when reducing EC2 costs:
+### EC2 savings `cheatsheet`:
+Cheatsheet to keep in mind when reducing EC2 costs
 - Utilize **SPOT instances** as much as possible.
 - Have a `Reserved` instance % target.
 - **Update** the version of you instance type **regularly**.
