@@ -6,7 +6,7 @@ Uneder the `Storage` tab on the sidebar you can view the first half of the page 
 
 ![Image](../../../static/img/s3-screen-2.png)
 
-On the lower part of the `storage` page we can see the S3 bucket objects. 
+On the lower part of the `storage` page we can see the S3 bucket objects in more detail. 
 
 ![Image](../../../static/img/s3-screen-1.png)
 
