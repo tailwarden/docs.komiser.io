@@ -357,7 +357,15 @@ img[alt=Oraculi] {
    position: centre;
   }
 
-  img[alt=Readme-banner] { 
-    width: 500px; 
-    position: centre;
-   }
+img[alt=Readme-banner] { 
+  width: 500px; 
+  position: centre;
+ }
+
+.hero__title {
+  font-family: "helvetica", Arial, Helvetica, sans-serif;
+}
+
+.hero__subtitle {
+  font-family: "helvetica", Arial, Helvetica, sans-serif;
+}

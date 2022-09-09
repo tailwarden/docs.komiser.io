@@ -78,8 +78,8 @@ const config = {
             label: 'Docs',
           },
           {
-            label: 'Website',
-            to: 'https://komiser.io/',
+            label: 'Oraculi cloud',
+            to: 'https://cloud.oraculi.io/dashboard',
             position: 'left',
           },
           {
