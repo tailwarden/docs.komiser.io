@@ -1,6 +1,6 @@
-# Optimising S3
+# Optimizing S3
 
-**`How-to: Komiser` Optimising S3**
+**`How-to: Komiser` Optimizing S3**
 
 Uneder the `Storage` tab on the sidebar you can view the first half of the page which shows the most relevant S3 data in your AWS account.   
 

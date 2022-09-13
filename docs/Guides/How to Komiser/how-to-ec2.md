@@ -1,6 +1,6 @@
-# Optimising EC2
+# Optimizing EC2
 
-**`How-to: Komiser` Optimising EC2**
+**`How-to: Komiser` Optimizing EC2**
 
 Under the `Compute` tab on the sidebar you can view the first half of the page which shows the most relevant EC2 data in your AWS account. 
 Check out the video below to learn some tips, which applied alongside Komiser can greatly reduce your EC2 spend. 
