@@ -79,7 +79,7 @@ const config = {
           },
           {
             label: 'Oraculi cloud',
-            to: 'https://cloud.oraculi.io/dashboard',
+            to: 'https://cloud.oraculi.io',
             position: 'left',
           },
           {
