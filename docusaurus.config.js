@@ -46,6 +46,12 @@ const config = {
         },
       }),
     ],
+    [
+      '@docusaurus/plugin-google-analytics',
+      {
+        trackingID: 'G-PVLRSMWSFG'
+      },
+    ],
   ],
 
   themeConfig:
