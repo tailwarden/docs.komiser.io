@@ -12,19 +12,19 @@ You can install the CLI with a `curl` utility script or by downloading the binar
 ### Linux
 
 ```
-wget https://cli.komiser.io/2.9.0/linux/komiser
+wget https://cli.komiser.io/2.10.0/linux/komiser
 ```
 
 ### Windows
 
 ```
-wget https://cli.komiser.io/2.9.0/windows/komiser -OutFile komiser.exe
+wget https://cli.komiser.io/2.10.0/windows/komiser -OutFile komiser.exe
 ```
 
 ### Mac OS X
 
 ```
-wget https://cli.komiser.io/2.9.0/osx/komiser
+wget https://cli.komiser.io/2.10.0/osx/komiser
 ```
 
 !!! Note
@@ -74,7 +74,7 @@ Komiser is also available as a Docker image:
 There is no "latest" tag, so find the version of the CLI you want to use from the tags page on the Docker Hub. These correspond to the release from GitHub.
 
 ```
-docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.9.0
+docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.10.0
 ```
 
 ### Docker installation tutorial
