@@ -1,6 +1,6 @@
 # FAQs
 
-## What the difference between Oraculi and Komiser?
+## What are the difference between Oraculi and Komiser?
 ---
 Komiser is the open-source predecessor of Oraculi. To get a more in-depth description of what Komiser is, read it [here](/docs/Introduction/what-is-komiser.md). In short, Komiser is a tool that prioritizes cloud transparency regarding the cost of your cloud resources. That's why komiser makes it easy to track all the recourses and costs related to them, cross regions, and cross accounts. 
 
@@ -20,7 +20,7 @@ Cloud providers for the most part are excellent, but they all have pretty `crumm
 ---
 Komiser is an open-source project that is actively maintained by the Oraculi team. The tool is currently undergoing a complete frontend revamp which will bring new functionalities coming near the end of October 2022. Join the [Discord server](https://discord.oraculi.io) so you don't miss any updates.
 
-## What is the data refresh data?
+## What is the dashboard data refresh rate?
 ---
 Komiser and Oraculi consume the public cloud provider service APIs. So the refresh interval of the data visible in the dashboard is dependent on the cloud provider API refresh rate. For most service APIs in most cloud providers, the refresh rate is every `30 minutes`
 
