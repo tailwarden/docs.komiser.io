@@ -5,7 +5,7 @@ sidebar_label: What is Komiser?
 ---
 # What is Komiser?
 
-![komiser-banner](/static/img/komiser-banner.png)
+![komiser-banner](/img/komiser-banner.png)
 
 **Komiser** is the `open-source` predecessor of Oraculi (Enterprise edition).  
 

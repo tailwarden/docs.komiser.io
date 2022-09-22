@@ -35,7 +35,7 @@ Yes, the migration process is seamless.
 **Oraculi tags**
 
 On Oraculi you can add in the Inventory section. Choose the resource you would like to tag and click in the three dots (...) under `Actions` and then fill in the pop-up.
-![add-tags](/static/img/add-tags.png)
+![add-tags](/img/add-tags.png)
 
 **Cloud provider tags**
 
