@@ -7,7 +7,7 @@ sidebar_label: What is Komiser?
 
 ![komiser-banner](/static/img/komiser-banner.png)
 
-**Komiser** is the `open-source` predecessor of Oraculi (Enterprise edition). 
+**Komiser** is the `open-source` predecessor of Oraculi (Enterprise edition).  
 
 The tool started off as a side project by Oraculi co-founder [Mohamed Labouardy](https://www.linkedin.com/in/mlabouardy/) while working as head of DevOps for a previous company at the time. He was tasked with managing a huge number of cloud resources spanning multiple cloud providers. He grew frustrated that there were no good tools out there to help manage this **sprawling multi-cloud infrastructure** which would unexpectedly rack up huge bills every month. So he decided to build it, with the help of contributors and extremely valuable feedback from the community. Komiser came to life as a continuously evolving cloud-agnostic cost inspector and resource manager. 
 
