@@ -2,13 +2,13 @@
 
 ## What are the differences between Oraculi and Komiser?
 ---
-Komiser is the open-source predecessor of Oraculi. To get a more in-depth description of what Komiser is, read it [here](/docs/Introduction/what-is-komiser.md). In short, Komiser is a tool that prioritizes cloud transparency regarding the cost of your cloud resources. That's why komiser makes it easy to track all the recourses and costs related to them, cross regions, and cross accounts. 
+Komiser is the open-source version of Oraculi. To get a more in-depth description of what Komiser is, read it [here](/docs/Introduction/what-is-komiser.md). In short, Komiser is a tool that prioritizes cloud transparency regarding the cost of your cloud resources. That's why komiser makes it easy to track all the resources and costs related to them, cross regions, and cross accounts. 
 
 Oraculi on the other hand aims to be a more all-in-one DevOps tool. Oraculi is built for Developers, CTOs, and Project Managers not only DevOps engineers. 
 
-As well as offering the Komiser cloud cost transparency features, Oraculi will also add security, governance features, and the ability to build custom dashboards on top of that, as well as giving the user a consolidated view of all their cloud resources cross account and cross cloud-provider through the `Inventory page`. 
+Oraculi incorporates the Komiser cloud cost transparency features, along with security, governance features, and the ability to build custom dashboards on top of that. In addition with Oraculi the user will get a consolidated view of all their cloud resources cross-account and cross-cloud-provider through the `Inventory page`. 
 
-As opposed to Komiser, Oraculi was established in late June 2022 and has a very ambitious feature roadmap that the team is working hard to deliver. So if an easy and accessible all-in-one cloud tool is something that could be valuable to you take a look at the [roadmap](https://oraculi.canny.io/) (or even consider adding to it) and join us for the ride. 
+Oraculi was established in late June 2022 and has a very ambitious feature roadmap that the team is working hard to deliver. So if an easy and accessible all-in-one cloud tool is something that could be valuable to you take a look at the [roadmap](https://oraculi.canny.io/) (or even consider adding to it) and join us for the ride. 
 
 ## What can Komiser help me with? 
 ---
@@ -27,7 +27,7 @@ Komiser and Oraculi consume the public cloud provider service APIs. So the refre
 ## Is it easy to migrate from Komiser to Oraculi?
 ---
 
-Yes, the migration process is seamless. 
+Yes, the migration process is very easy. Just open an Oraculi account and link your cloud account credentials.
 
 ## How can I use tags?
 ---
@@ -35,6 +35,7 @@ Yes, the migration process is seamless.
 **Oraculi tags**
 
 On Oraculi you can add in the Inventory section. Choose the resource you would like to tag and click in the three dots (...) under `Actions` and then fill in the pop-up.
+
 ![add-tags](/img/add-tags.png)
 
 **Cloud provider tags**
