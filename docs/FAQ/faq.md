@@ -1,6 +1,6 @@
 # FAQs
 
-## What are the difference between Oraculi and Komiser?
+## What are the differences between Oraculi and Komiser?
 ---
 Komiser is the open-source predecessor of Oraculi. To get a more in-depth description of what Komiser is, read it [here](/docs/Introduction/what-is-komiser.md). In short, Komiser is a tool that prioritizes cloud transparency regarding the cost of your cloud resources. That's why komiser makes it easy to track all the recourses and costs related to them, cross regions, and cross accounts. 
 
