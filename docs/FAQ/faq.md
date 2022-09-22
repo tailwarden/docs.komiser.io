@@ -1,7 +1,7 @@
 # FAQs
 
 ## What are the differences between Oraculi and Komiser?
----
+
 Komiser is the open-source version of Oraculi. To get a more in-depth description of what Komiser is, read it [here](/docs/Introduction/what-is-komiser.md). In short, Komiser is a tool that prioritizes cloud transparency regarding the cost of your cloud resources. That's why komiser makes it easy to track all the resources and costs related to them, cross regions, and cross accounts. 
 
 Oraculi on the other hand aims to be a more all-in-one DevOps tool. Oraculi is built for Developers, CTOs, and Project Managers not only DevOps engineers. 
@@ -11,26 +11,25 @@ Oraculi incorporates the Komiser cloud cost transparency features, along with se
 Oraculi was established in late June 2022 and has a very ambitious feature roadmap that the team is working hard to deliver. So if an easy and accessible all-in-one cloud tool is something that could be valuable to you take a look at the [roadmap](https://oraculi.canny.io/) (or even consider adding to it) and join us for the ride. 
 
 ## What can Komiser help me with? 
----
+
 Anybody who was ever tasked with managing a cloud provider account (that isn't a personal test account) understands how `painful` it is to track all the resources, cost, and security that goes along with it. Let alone managing multiple accounts, and let's not even get started about `multi-cloud` environments. 
 
 Cloud providers for the most part are excellent, but they all have pretty `crummy web consoles`. Komiser brings **transparency** around what you have provisioned in your account and the cost it's incurring. You can toggle between cloud accounts and regions to uncover potentially **hidden costs**. Komiser brings to the **forefront** what was **hidden in the shadows**. 
 
 ## Is Komiser regularly maintained?
----
+
 Komiser is an open-source project that is actively maintained by the Oraculi team. The tool is currently undergoing a complete frontend revamp which will bring new functionalities coming near the end of October 2022. Join the [Discord server](https://discord.oraculi.io) so you don't miss any updates.
 
 ## What is the dashboard data refresh rate?
----
+
 Komiser and Oraculi consume the public cloud provider service APIs. So the refresh interval of the data visible in the dashboard is dependent on the cloud provider API refresh rate. For most service APIs in most cloud providers, the refresh rate is every `30 minutes`
 
 ## Is it easy to migrate from Komiser to Oraculi?
----
 
 Yes, the migration process is very easy. Just open an Oraculi account and link your cloud account credentials.
 
 ## How can I use tags?
----
+
 
 **Oraculi tags**
 
@@ -47,7 +46,6 @@ If you have resources tagged already in your cloud provider you will shortly to 
 Komiser will have the tagging feature delivered as part of the Komsier revamps efforts and will be delivered at the end of October as part of the Komiser v3.0.0 release. 
 
 ## How can I request a new feature?
----
 
 If you would like to request a feature to be added to Komiser, feel free to do so through any of the following channels: 
 - GitHub [issues](https://github.com/HelloOraculi/komiser/issues)
@@ -56,17 +54,14 @@ If you would like to request a feature to be added to Komiser, feel free to do s
 - Via [Twitter](https://twitter.com/HelloOraculi) 
 
 ## Where can I see the upcoming features?
----
 
 Keep tabs on what we are working on by bookmarking our [public roadmap](https://oraculi.canny.io/). We are aware that we have to always stay nimble and agile so if you think we should prioritize a certain feature over another, let your voice be heard by upvoting it, we really appreciate your input. Also, let us know if we are missing anything. 
 
 ## Does Komiser have access to my cloud data?
----
 
 Since Komiser is completely self-hosted, Oraculi has zero access to any of your cloud data or personal information. 
 
 ## How can I build a custom dashboard? 
----
 
 `Custom dashboards` are one of the main features we are working to deliver as soon as possible. We are very excited about being able to give users the chance to build customized dashboards filtering by certain regions, resources, or more importantly by `custom tags` to bring the clearest view to what you want to see. 
 
