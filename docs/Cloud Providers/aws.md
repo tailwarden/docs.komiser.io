@@ -35,7 +35,16 @@ region = <AWS region>
 komiser start --port 3000
 ```
 
-## Local Komiser CLI (Multiple accounts)
+## Komiser CLI (Restricted regions)
+---
+There might be times when you would like to specifically restrict the scope of Komisers reach to a specific cloud region or a subset of them. This can be useful for organizations with tight SCPs in place. 
+Add the `--regions` flag to the `Komiser start` command and seperate the regions with commas. 
+```
+komiser start --regions eu-central-1,us-east-1,ap-southeast-1	
+
+``` 
+
+## Komiser CLI (Multiple accounts)
 ---
 Komiser support multiple AWS accounts through named profiles that are stored in the `config` and `credentials files`. You can configure additional profiles by using `aws configure` with the `--profile` option, or by adding entries to the `config` and `credentials` files.
 
