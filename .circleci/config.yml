@@ -10,6 +10,10 @@ executors:
 jobs:
   build:
     executor: environment
+    filters:
+      branches:
+        only:
+          - master
     steps:
       - checkout
       - run:
