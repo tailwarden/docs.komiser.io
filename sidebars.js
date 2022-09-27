@@ -29,16 +29,16 @@ const sidebars = {
       items: [
         {
           type: 'doc',
+          id: 'Introduction/what-is-komiser',
+        },
+        {
+          type: 'doc',
           id: 'Introduction/installation',
         },
         {
           type: 'doc',
           id: 'Introduction/community',
-        },
-        {
-          type: 'doc',
-          id: 'Introduction/what-is-komiser',
-        },
+        }
       ],
     },
     {

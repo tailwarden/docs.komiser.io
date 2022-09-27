@@ -369,3 +369,8 @@ img[alt=Readme-banner] {
 .hero__subtitle {
   font-family: "helvetica", Arial, Helvetica, sans-serif;
 }
+
+img[alt=komiser-banner] { 
+  width: 900px; 
+  position: centre;
+ }

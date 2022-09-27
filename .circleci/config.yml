@@ -33,4 +33,3 @@ jobs:
             aws s3 cp --recursive build/ s3://www.docs.komiser.io --region eu-central-1
             aws configure set preview.cloudfront true
             aws cloudfront create-invalidation --distribution-id E3EWXSQNWBIVSU --paths "/*"
-         
