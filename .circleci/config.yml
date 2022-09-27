@@ -43,7 +43,7 @@ jobs:
 workflows:
   ci_cd:
     jobs:
-      - build:
+      - build
       - deploy:
           requires:
             - build
