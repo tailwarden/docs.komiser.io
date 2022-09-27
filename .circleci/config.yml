@@ -10,10 +10,6 @@ executors:
 jobs:
   build:
     executor: environment
-    filters:
-      branches:
-        only:
-          - master
     steps:
       - checkout
       - run:
@@ -22,6 +18,15 @@ jobs:
       - run:
           name: Build website
           command: npm run build
+      - persist_to_workspace:
+          root: .
+          paths:
+            - build
+  deploy:
+    executor: environment
+    steps:
+      - attach_workspace:
+          at: build
       - run:
           name: Install AWS CLI
           command: |
@@ -30,6 +35,19 @@ jobs:
       - run:
           name: Push to S3 bucket
           command: |
+            cd build/
             aws s3 cp --recursive build/ s3://www.docs.komiser.io --region eu-central-1
             aws configure set preview.cloudfront true
             aws cloudfront create-invalidation --distribution-id E3EWXSQNWBIVSU --paths "/*"
+
+workflows:
+  ci_cd:
+    jobs:
+      - build:
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - master
