@@ -9,7 +9,8 @@ This repository contains the files required to build the Komiser Documentation H
 
 ## Contributing to the docs
 
-- Firstly, go ahead and **fork** the docs [repository](https://github.com/HelloOraculi/docs). Make any changes you want to your fork, and when you're ready to send those changes to us, go to your fork and create a new pull request.
+- The best way to get started is by reading the [contributor guidelines](https://github.com/HelloOraculi/komiser/blob/master/CONTRIBUTING.md). 
+- Afterwards, go ahead and **fork** the docs [repository](https://github.com/HelloOraculi/docs). Make any changes you want to your fork, and when you're ready to send those changes to us, go to your fork and create a new pull request.
 
 - If it takes longer than expected to get feedback from the `Oraculi` team, head over to the [Discord Server](https://discord.oraculi.io) and **ping** an Oraculi staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
 
