@@ -66,6 +66,18 @@ brew install komiser
   </iframe>
 </div>
 
+### Options
+
+```
+komiser start [OPTIONS]
+```
+
+```
+   --port value, -p value      Server port (default: 3000)
+   --duration value, -d value  Cache expiration time (default: 30 minutes)
+   --redis value, -r value     Redis server (localhost:6379)
+```
+
 ### Docker image 
 
 Komiser is also available as a Docker image:
