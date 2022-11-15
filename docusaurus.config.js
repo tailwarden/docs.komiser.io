@@ -24,14 +24,13 @@ const config = {
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
-   i18n: {
+  i18n: {
     defaultLocale: 'en',
     locales: ['en'],
-   },
-
+  },
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -44,14 +43,12 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
-    ],
-    [
-      '@docusaurus/plugin-google-analytics',
-      {
-        trackingID: 'G-PVLRSMWSFG'
-      },
-    ],
+        gtag: {
+          trackingID: 'G-PVLRSMWSFG',
+          anonymizeIP: true,
+        },
+      })
+    ]
   ],
 
   themeConfig:
