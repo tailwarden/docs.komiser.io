@@ -1,7 +1,7 @@
-![Readme-banner](./static/img/readme-banner-2.png)
-<h1>Official Oraculi Documentation</h1>
+![Readme-banner](./static/img/docs-banner-tw.png)
+<h1>Official Komiser Documentation</h1>
 <p>
-Repository for the Oraculi Organization Public Documentation. It is the official Oraculi site for publishing latest news, blog posts, and documentation from our open source community.
+Repository for the Tailwarden Organization Public Documentation. It is the official Tailwarden site for publishing latest news, blog posts, and documentation from our open source community.
 </p>
 
 </div>
@@ -17,7 +17,7 @@ npm test
 
 ### How to Run Locally
 
-1. Clone this repository: `git clone "https://github.com/HelloOraculi/docusaurus.git"`
+1. Clone this repository: `git clone "https://github.com/tailwarden/docs.git"`
 2. Run the commands :
     1. `npm install`
     2. `npm run docusaurus:build`

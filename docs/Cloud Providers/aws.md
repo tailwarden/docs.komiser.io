@@ -75,9 +75,9 @@ komiser start --port 3000 --redis localhost:6379 --duration 30 --multiple
 
 ## EKS installation (single account)
 ---
-Link to [repository](https://github.com/HelloOraculi/helm/blob/master/README.md#configuration-single-aws-account)
+Link to [repository](https://github.com/tailwarden/helm/blob/master/README.md#configuration-single-aws-account)
 
-We will be using the official Komiser [Helm Chart](https://github.com/HelloOraculi/helm#configuration-multiple-aws-accounts) to deploy Komiser to our EKS cluster. 
+We will be using the official Komiser [Helm Chart](https://github.com/tailwarden/helm#configuration-multiple-aws-accounts) to deploy Komiser to our EKS cluster. 
 
 ### Prerequisite
 
@@ -167,7 +167,7 @@ We will be using the official Komiser [Helm Chart](https://github.com/HelloOracu
 
 ### Update ServiceAccount
 
-Update [templates/service-account.yaml](https://github.com/HelloOraculi/helm/blob/master/templates/service-account.yaml) with the IAM role you've created previously
+Update [templates/service-account.yaml](https://github.com/tailwarden/helm/blob/master/templates/service-account.yaml) with the IAM role you've created previously
 ```
 apiVersion: v1
 kind: ServiceAccount
@@ -212,13 +212,13 @@ The above command deploys Komiser on the Kubernetes cluster in the default confi
 
 ## Multiple account EKS (Helm chart) installation
 ---
-Link to [README](https://github.com/HelloOraculi/helm/blob/master/README.md#configuration-multiple-aws-accounts) file with step by step instructions.
+Link to [README](https://github.com/tailwarden/helm/blob/master/README.md#configuration-multiple-aws-accounts) file with step by step instructions.
 
 Steps for a container to access the resources in multiple AWS accounts.
 We are working with two example clusters, ADMIN and DEV cluster.
 
 Solution diagram:
-![solutions-diagram](/../static/img/multi-account-graph.png)
+![solutions-diagram](../../static/img/multi-account-graph.png)
 
 ### Create and IAM OIDC provider for your cluster
 
@@ -257,7 +257,7 @@ Solution diagram:
 1. For **Audience**, enter `sts.amazonaws.com` and choose **Add provider**\.
 
 ### Create A `DEV IAM role`
-* Add the recommended [Komiser policy](https://github.com/mlabouardy/komiser/blob/master/policy.json)
+* Add the recommended [Komiser policy](https://github.com/tailwarden/komiser/blob/master/policy.json)
 * Create a Trust Relathionship with the `ADMIN` role (once it's created)
 ```
  {

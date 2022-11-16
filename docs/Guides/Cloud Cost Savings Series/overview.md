@@ -1,10 +1,10 @@
 # Overview
 
-### Hey there Oraculists!🚀 
+### Hey there Wardens!🚀 
 
 **Welcome to the Cloud cost savings series section!**
 
-This section is where we archive and display the weekly `Tuesday` ritual posts, which occurs on our [Discord server](https://discord.oraculi.io). These posts are arranged by cloud provider and can be found under the `Cloud Cost Savings Series` on the sidebar on the left. 
+This section is where we archive and display the weekly `Tuesday` ritual posts, which occurs on our [Discord server](https://discord.tailwarden.com). These posts are arranged by cloud provider and can be found under the `Cloud Cost Savings Series` on the sidebar on the left. 
 
 We have come to know is as the `Tuesday Cloud cost savings tips time! 💸`
 
@@ -22,7 +22,7 @@ So if you are keen on **keeping your money in your own pocket** and not giving i
 
 If we haven't covered a service or you would like us to add more to any cloud serivice that could be benificial to you, please feel free to contact and and let us know. We will surely increase the priority of the service and hopefully have some thoughts to share with you and the community as quickly as possible. 
 
-The best way to contact us is through out [Discord server](https://discord.oraculi.io). Feel free to leave a message in the `#feedback` of `#cloud-talk` channels. 
+The best way to contact us is through out [Discord server](https://discord.tailwarden.com). Feel free to leave a message in the `#feedback` of `#cloud-talk` channels. 
 
 Thanks for reading. 
 

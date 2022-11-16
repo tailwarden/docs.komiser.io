@@ -35,7 +35,7 @@ wget https://cli.komiser.io/2.11.0/osx/komiser
 
 ```
 brew upgrade
-brew tap HelloOraculi/komiser
+brew tap tailwarden/komiser
 brew install komiser
 ```
 

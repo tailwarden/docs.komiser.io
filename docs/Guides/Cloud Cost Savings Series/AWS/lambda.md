@@ -1,6 +1,6 @@
 # AWS Lambda 
 
-#### Hey there Oraculists!🚀 
+#### Hey there Wardens!🚀 
 
 In this installment we will be saving on: `Lambda functions`⚡
 
@@ -13,7 +13,7 @@ We will be looking at two articles 📖 that walk us through making Lambda a mor
 - You should always optimize the memory setting for functions that use provisioned concurrency.
 - Use the aws-lambda-power-tuning tool https://github.com/alexcasalboni/aws-lambda-power-tuning
 
-#### [Article #2](https://blog.labouardy.com/how-we-reduced-lambda-functions-costs-by-thousands-of-dollars/): The use-case by OG Oraculist [Mohamed Labouardy](https://blog.labouardy.com/)
+#### [Article #2](https://blog.labouardy.com/how-we-reduced-lambda-functions-costs-by-thousands-of-dollars/): The use-case by OG Warden [Mohamed Labouardy](https://blog.labouardy.com/)
 
 `TL:DR`
 - Over 90% cost reduction

@@ -5,11 +5,11 @@ sidebar_label: What is Komiser?
 ---
 # What is Komiser?
 
-![komiser-banner](/img/komiser-banner.png)
+![komiser-banner](/docs/static/img/docs-banner-tw.png)
 
-**Komiser** is the `open-source` version of [Oraculi](https://www.oraculi.io/) (Enterprise edition).  
+**Komiser** is the `open-source` version of [Tailwarden](https://www.tailwarden.com/) (Enterprise edition).  
 
-The tool started off as a side project by Oraculi co-founder [Mohamed Labouardy](https://www.linkedin.com/in/mlabouardy/) while working as head of DevOps for a previous company at the time. He was tasked with managing a huge number of cloud resources spanning multiple cloud providers. He grew frustrated that there were no good tools out there to help manage this **sprawling multi-cloud infrastructure** which would unexpectedly rack up huge bills every month. So he decided to build it, with the help of contributors and extremely valuable feedback from the community. Komiser came to life as a continuously evolving cloud-agnostic cost inspector and resource manager. 
+The tool started off as a side project by Tailwarden co-founder [Mohamed Labouardy](https://www.linkedin.com/in/mlabouardy/) while working as head of DevOps for a previous company at the time. He was tasked with managing a huge number of cloud resources spanning multiple cloud providers. He grew frustrated that there were no good tools out there to help manage this **sprawling multi-cloud infrastructure** which would unexpectedly rack up huge bills every month. So he decided to build it, with the help of contributors and extremely valuable feedback from the community. Komiser came to life as a continuously evolving cloud-agnostic cost inspector and resource manager. 
 
 Two years on, with almost **3000 GitHub stars** and over **2 million** downloads, Komiser has grown to be an open tool used by many to bring transparency with regard to cost in their cloud environments. 
 

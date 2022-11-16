@@ -1,6 +1,6 @@
 # Amazon API Gateway
 
-#### Hey there Oraculists!🚀 
+#### Hey there Wardens!🚀 
 
 In this installment we will be saving on: `Amazon API Gateway` 🌉!
 

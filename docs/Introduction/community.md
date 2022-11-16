@@ -7,7 +7,7 @@ sidebar_label: Community
 
 ## Our mission
 
-The Oraculi community is made up of Oraculists! We are people that wear many different hats, we rally around one mission though which is: 
+The Tailwarden community is made up of Wardens! We are people that wear many different hats, we rally around one mission though which is: 
 
 ```
 Supporting developers in building, monitoring and optimizing their technical infrastructure 
@@ -19,8 +19,8 @@ Below are a couple of ways you can take part and/or [contribute](/docs/Contribut
 
 ## Discord Server
 
-The [Discord Server](https://discord.oraculi.io) is a open and inclusive place where you get assistance with anything Komiser and Oraculi related, you can interact with the mantainers or simply hang out with the community and talk about anything around cloud, cost, security and DevOps. 
+The [Discord Server](https://discord.tailwarden.com) is a open and inclusive place where you get assistance with anything Komiser and Tailwarden related, you can interact with the mantainers or simply hang out with the community and talk about anything around cloud, cost, security and DevOps. 
 
 ## Community calls
 
-Soon, various Oraculi maintaners and staff members will open up a number of slots on the their calendars in which you can book a slot to chat directly about Komiser or Oraculi. It's a chance for you to let us know how we can best help you. But it is also incredibly helpful to us to hear your opinion about the product. We are all ears and would love to hear your ideas for your desired features and improvements. So if you're keen to share your thoughts with us, don't hesitate to book a time.
+Soon, various Tailwarden maintaners and staff members will open up a number of slots on the their calendars in which you can book a slot to chat directly about Komiser or Tailwarden. It's a chance for you to let us know how we can best help you. But it is also incredibly helpful to us to hear your opinion about the product. We are all ears and would love to hear your ideas for your desired features and improvements. So if you're keen to share your thoughts with us, don't hesitate to book a time.

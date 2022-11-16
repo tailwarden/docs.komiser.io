@@ -1,6 +1,6 @@
 # AWS CloudWatch
 
-#### Hey there Oraculists!🚀 
+#### Hey there Wardens!🚀 
 
 In this installment we will be saving on: `AWS CloudWatch` 📊!
 
