@@ -9,65 +9,65 @@
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/docs",
+        "name": "/Users/jakepage/tailwarden/docs/docs",
         "parent_id": null,
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": "docs",
         "id": "xUkX76CJ9avVowZ4"
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/.circleci",
+        "name": "/Users/jakepage/tailwarden/docs/.circleci",
         "parent_id": null,
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": ".circleci",
         "id": "bVwo31WX4dcM5rjx"
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/.docusaurus",
+        "name": "/Users/jakepage/tailwarden/docs/.docusaurus",
         "parent_id": null,
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": ".docusaurus",
         "id": "b4Ku2Mnz5HhWdUfT"
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/.vscode",
+        "name": "/Users/jakepage/tailwarden/docs/.vscode",
         "parent_id": null,
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": ".vscode",
         "id": "RFuX79fd1S0vmj4O"
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/blog",
+        "name": "/Users/jakepage/tailwarden/docs/blog",
         "parent_id": null,
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": "blog",
         "id": "9d1esBThpfKoFa7b"
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/build",
+        "name": "/Users/jakepage/tailwarden/docs/build",
         "parent_id": null,
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": "build",
         "id": "6cd0vWpZ57sMT2BE"
     },
     {
         "type": "Directory",
-        "name": "/Users/jakepage/helloOraculi/docs/docs",
+        "name": "/Users/jakepage/tailwarden/docs/docs",
         "parent_id": "gUVnx1wBjFE4rkzJ",
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": "docs",
         "id": "bB8wkXTmEIi95dGj"
     },
     {
         "type": "File",
-        "name": "/Users/jakepage/helloOraculi/docs/docs/Cloud Providers/aws.md",
+        "name": "/Users/jakepage/tailwarden/docs/docs/Cloud Providers/aws.md",
         "parent_id": "gUVnx1wBjFE4rkzJ",
-        "workspaceRoot": "/Users/jakepage/helloOraculi/docs",
+        "workspaceRoot": "/Users/jakepage/tailwarden/docs",
         "workspacePath": "docs/Cloud Providers/aws.md",
         "id": "OgSYJN4PVokum1vz"
     }

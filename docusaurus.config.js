@@ -10,7 +10,7 @@ const TwitterSvg = '<svg style="fill: #1DA1F2; vertical-align: middle; margin-le
 const config = {
   title: 'Komiser Documentation',
   tagline: 'The Future of DevOps',
-  url: 'https://www.oraculi.io/',
+  url: 'https://www.tailwarden.com/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
@@ -18,8 +18,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'helloOraculi', // Usually your GitHub org/user name.
-  projectName: 'oraculi', // Usually your repo name.
+  organizationName: 'tailwarden', // Usually your GitHub org/user name.
+  projectName: 'komiser', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -38,7 +38,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/HelloOraculi/oraculi',
+            'https://github.com/tailwarden/komiser',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,7 @@ const config = {
       },
       announcementBar: {
         id: 'announcementBar-2', // Increment on change
-        content: `⭐️ If you like Komiser, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/mlabouardy/komiser">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/hellooraculi">Twitter ${TwitterSvg}</a>`,
+        content: `⭐️ If you like Komiser, give it a star on <a target="_blank" rel="noopener noreferrer" href="https://github.com/tailwarden/komiser">GitHub</a> and follow us on <a target="_blank" rel="noopener noreferrer" href="https://twitter.com/tailwarden">Twitter ${TwitterSvg}</a>`,
       },
       docs: {
         sidebar: {
@@ -81,17 +81,17 @@ const config = {
             label: 'Docs',
           },
           {
-            label: 'Oraculi cloud',
-            to: 'https://cloud.oraculi.io',
+            label: 'Tailwarden cloud',
+            to: 'https://cloud.tailwarden.com',
             position: 'left',
           },
           {
-            href: 'https://github.com/mlabouardy/komiser',
+            href: 'https://github.com/tailwarden/komiser',
             className: 'pseudo-icon github-icon',
             position: 'right',
           },
           {
-            href: 'https://discord.oraculi.io',
+            href: 'https://discord.tailwarden.com',
             className: 'pseudo-icon discord-icon',
             position: 'right',
           },
@@ -101,13 +101,13 @@ const config = {
           },
           {
             label: 'Sign Up',
-            href: 'https://cloud.oraculi.io/signup',
+            href: 'https://cloud.tailwarden.com/signup',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
           },
           {
             label: 'Login',
-            href: 'https://cloud.oraculi.io/login',
+            href: 'https://cloud.tailwarden.com/login',
             position: 'right',
             className: 'dev-portal-login dev-portal-link',
           },
@@ -121,15 +121,15 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discord.oraculi.io',
+                href: 'https://discord.tailwarden.com',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/HelloOraculi',
+                href: 'https://twitter.com/tailwarden',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/mlabouardy/komiser',
+                href: 'https://github.com/tailwarden/komiser',
               },
             ],
           },
@@ -146,7 +146,7 @@ const config = {
               },
               {
                 label: 'Public Roadmap',
-                href: 'https://oraculi.canny.io/',
+                href: 'https://tailwarden.canny.io/',
               },
             ],
           },
@@ -155,16 +155,16 @@ const config = {
             items: [
               {
                 label: 'Careers',
-                href: 'https://www.oraculi.io',
+                href: 'https://www.tailwarden.com',
               },
               {
-                label: 'Oraculi',
-                href: 'https://www.notion.so/oraculi/Work-at-Oraculi-269b2aca1c844abc822d8b0f73618a6e',
+                label: 'Tailwarden',
+                href: 'https://www.notion.so/tailwarden/Work-at-Tailwarden-269b2aca1c844abc822d8b0f73618a6e',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Oraculi - Made by humans.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Tailwarden - Made by humans.`,
       },
       prism: {
         darkTheme: darkCodeTheme,

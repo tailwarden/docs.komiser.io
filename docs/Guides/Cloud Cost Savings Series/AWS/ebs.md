@@ -1,6 +1,6 @@
 # Amazon EBS
 
-#### Hey there Oraculists!🚀 
+#### Hey there Wardens!🚀 
 
 In this installment we will be saving on: `Elastic Block Store (EBS)` !
 
