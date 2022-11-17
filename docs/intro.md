@@ -5,7 +5,7 @@ sidebar_label: Overview
 ---
 # Overview of Komiser Documentation
 
-![Tailwarden](/docs/static/img/docs-banner-tw.png)
+![Tailwarden](/img/docs-banner-tw.png)
 [![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40mlabouardy)](https://twitter.com/mlabouardy) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Optimize%20Cost%20and%20Security%20on%20AWS&url=https://github.com/mlabouardy/komiser&via=mlabouardy&hashtags=komiser,aws,gcp,cloud,serverless,devops)
 
 This section is a high-level overview of how the Komiser Documentation is structured. It will help you use the documentation more effectively by guiding you on where to look for specific information.

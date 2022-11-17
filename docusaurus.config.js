@@ -70,8 +70,8 @@ const config = {
         title: '',
         logo: {
           alt: 'My Site Logo',
-          src: 'static/img/komiser-logo-light.png',
-          srcDark: 'static/img/komiser-logo-tw-dark.png',
+          src: '/img/komiser-logo-light.png',
+          srcDark: '/img/komiser-logo-tw-dark.png',
         },
         items: [
           {

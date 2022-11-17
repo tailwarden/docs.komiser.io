@@ -9,3 +9,10 @@
   height: 200px;
   width: 200px;
 }
+
+.logo img {
+  max-height: 70% !important; 
+}
+div .logo {
+  padding-top: 20px !important; 
+}
