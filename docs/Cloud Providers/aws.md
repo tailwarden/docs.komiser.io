@@ -1,16 +1,98 @@
 # Amazon Web Services
 
+## Komiser configurations
+From Komiser v3 onwards we specify komiser configuration by way of a `config.toml` file. We specify the location of the config.toml file with the `--config` flag. 
+
+Example `start` command
+```
+komiser start --config config.toml file
+```
+
+## Config.toml file
+Komiser now support multiple cloud accounts by default. 
+We've also added 2 methods of persisting your account data.
+- Postgresql
+```
+# Add to config.toml file
+
+[postgres]
+uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
+```
+- Sqlite
+```
+# Add to config.toml file
+
+[sqlite]
+  file = "komiser.db"
+```
+
+ *The reason for this external data persistence is to improve the filtering, sorting and tagging management experience making is faster and smoother. It also serves as a standalone DB which you are free to query and visualize as you see fit.*  
+
+### Example config.toml
+```
+[[aws]]
+name="sandbox"
+source="CREDENTIALS_FILE"
+path=./path/to/credentials/file
+profile="default"
+
+[[aws]]
+name="staging"
+source="CREDENTIALS_FILE"
+path=./path/to/credentials/file
+profile="staging-account"
+
+[[gcp]]
+name="production"
+source="ENVIRONMENT_VARIABLES"
+# path=./path/to/credentials/file specify if CREDENTIALS_FILE is used
+profile="production"
+
+[postgres]
+uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
+```
+
 ## Configuring Credentials
 
-When using the CLI you'll generally need your AWS credentials to authenticate with AWS services. Komiser supports multiple methods of supporting these credentials. By default the CLI will source credentials automatically from its default credential chain.
+When using the CLI you'll generally need your AWS credentials to authenticate with AWS services. Komiser supports multiple methods of providing these credentials. By default the CLI will source credentials automatically from its default credential chain. 
+In the `source` section of the cloud profile inside the `config.toml` file we can choose between `ENVIRONMENT_VARIABLES` or `CREDENTIALS_FILE`
 
-* Environment Credentials - Set of environment variables that are useful when sub processes are created for specific roles.
+* Environment Credentials - Set of environment variables that are useful when sub processes are created for specific roles. Useful for local development
 
-* Shared Credentials file (~/.aws/credentials) - This file stores your credentials based on a profile name and is useful for local development.
+```
+[[gcp]]
+name="production"
+source="ENVIRONMENT_VARIABLES"
+profile="production"
+```
 
 * EC2 Instance Role Credentials - Use EC2 Instance Role to assign credentials to application running on an EC2 instance. This removes the need to manage credential files in production.
 
-## Local Komiser CLI (Single Account)
+```
+[[aws]]
+name="sandbox"
+source="CREDENTIALS_FILE"
+path=./path/to/credentials/file
+profile="default"
+```
+### Credentials file
+It us not recommended to add you AWS Access and Secret Access key in the credentials file. The most secure way of authentication is by using temporary credentials through IAM roles. 
+
+Example
+```
+[ADMIN-account]
+region = eu-central-1
+role_arn = arn:aws:iam::ACCOUNT-ID:role/IAMRoleName
+web_identity_token_file = /var/run/secrets/eks.amazonaws.com/serviceaccount/token
+
+[DEV-account]
+region = eu-central-1
+role_arn = arn:aws:iam::ACCOUNT-ID:role/IAMRoleName
+source_profile = ADMIN-account
+role_session_name = komiser_session
+```
+
+## Local Komiser CLI
 ---
 
 ### Create an IAM user
@@ -32,7 +114,7 @@ region = <AWS region>
 * That should be it. Try out the following from your command prompt to start the server:
 
 ```
-komiser start --port 3000
+komiser start --config config.toml
 ```
 
 ## Komiser CLI (Restricted regions)
@@ -40,37 +122,9 @@ komiser start --port 3000
 There might be times when you would like to specifically restrict the scope of Komisers reach to a specific cloud region or a subset of them. This can be useful for organizations with tight SCPs in place. 
 Add the `--regions` flag to the `Komiser start` command and seperate the regions with commas. 
 ```
-komiser start --regions eu-central-1,us-east-1,ap-southeast-1	
+komiser start --config config.toml --regions eu-central-1,us-east-1,ap-southeast-1	
 
 ``` 
-
-## Komiser CLI (Multiple accounts)
----
-Komiser support multiple AWS accounts through named profiles that are stored in the `config` and `credentials files`. You can configure additional profiles by using `aws configure` with the `--profile` option, or by adding entries to the `config` and `credentials` files.
-
-The following example shows a credentials file with 3 profiles (production, staging & sandbox accounts):
-
-```
-[Production]
-aws_access_key_id=<AWS_ACCESS_KEY_ID>
-aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
-
-[Staging]
-aws_access_key_id=<AWS_ACCESS_KEY_ID>
-aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
-
-[Sandbox]
-aws_access_key_id=<AWS_ACCESS_KEY_ID>
-aws_secret_access_key=<AWS_SECRET_ACCESS_KEY>
-```
-
-To enable multiple AWS accounts feature, add the `--multiple` option to Komiser start command:
-
-```
-komiser start --port 3000 --redis localhost:6379 --duration 30 --multiple
-```
-
-* If you point your browser to http://localhost:3000, you should be able to see your accounts
 
 
 ## EKS installation (single account)
@@ -311,17 +365,18 @@ metadata:
     apiVersion: v1
     kind: ConfigMap
     data:
-    credentials: |-
-        [ADMIN-account]
-        region = ${REGION}
-        role_arn = arn:aws:iam::${ADMIN_AWS_ACCOUNT_ID}:role/${ROLE_NAME}
-        web_identity_token_file = /var/run/secrets/eks.amazonaws.com/serviceaccount/token
+    config.toml: |-
+      [[aws]]
+      name="admin"
+      source="CREDENTIALS_FILE"
+      path=/path/to/credentials/file
+      profile="ADMIN-account" # Required if CREDENTIALS_FILE is set
 
-        [DEV-account]
-        region = ${REGION}
-        role_arn = arn:aws:iam::${DEV_AWS_ACCOUNT_ID}:role/${ROLE_NAME}
-        source_profile = ADMIN-account
-        role_session_name = komiser_session
+      [[aws]]
+      name="dev"
+      source="CREDENTIALS_FILE"
+      path=/path/to/credentials/file
+      profile="ADMIN-account" # Required if CREDENTIALS_FILE is set
     metadata:
     annotations:
         meta.helm.sh/release-name: ${RELEASE_NAME}
@@ -335,7 +390,8 @@ metadata:
 ### Mount the ConfigMap to the Deployment manifest
 
 1. Make sure not to change the mount path or internal volume path, paths should match the example below.
-2. Add the `command: ["--multiple"]` to the container to allow a multi account setup
+2. Add the correct `config.toml` path to `command` to the container to allow a multi account setup.
+3. Have a valid credentials file that the deployment has access to.
 
    ```
     apiVersion: apps/v1 
@@ -357,7 +413,7 @@ metadata:
             - name: {{ .Chart.Name }}
             image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
             imagePullPolicy: {{ .Values.image.pullPolicy }}
-            command: ["--multiple"]
+            command: ["komiser","start","--config","/root/.aws/config.toml"]
             env:
                 - name: AWS_DEFAULT_REGION
                 value: "{{ .Values.aws.region }}"
