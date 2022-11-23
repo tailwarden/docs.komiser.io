@@ -69,13 +69,19 @@ brew install komiser
 ### Options
 
 ```
-komiser start [OPTIONS]
+Usage:
+  komiser [command]
 ```
 
 ```
-   --port value, -p value      Server port (default: 3000)
-   --duration value, -d value  Cache expiration time (default: 30 minutes)
-   --redis value, -r value     Redis server (localhost:6379)
+Available Commands:
+  config      Create configuration file
+  help        Help about any command
+  start       Run Komiser server
+  version     Show tool version
+
+Flags:
+  -h, --help   help for komiser
 ```
 
 ### Docker image 
@@ -87,7 +93,7 @@ Komiser is also available as a Docker image:
 There is no "latest" tag, so find the version of the CLI you want to use from the tags page on the Docker Hub. These correspond to the release from GitHub.
 
 ```
-docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.11.0
+docker run -d -p 3000:3000 --name komiser tailwarden/komiser:3.0.0
 ```
 
 ### Docker installation tutorial
