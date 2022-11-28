@@ -1,15 +1,17 @@
 # Amazon Web Services
 
 ## Komiser configurations
-From Komiser v3 onwards we specify komiser configuration by way of a `config.toml` file. We specify the location of the config.toml file with the `--config` flag. 
+From Komiser v3 onwards we specify our komiser configuration by way of a `config.toml` file. If you place the config.toml file in the same directory as the Komiser binary then it will pick it up by default, if it's placed in a different location, then we need to pass in the path using the `--config` flag. 
 
 Example `start` command
 ```
-komiser start --config config.toml file
+komiser start 
 ```
 
 ## Config.toml file
-Komiser now support multiple cloud accounts by default. 
+---
+![config-file](../../static/img/config-komiser.png)
+Komiser now supports multiple cloud accounts by default. Account configuration is done through the config.toml file, using either the `ENVIRONMENT_VARIABLES` or `CREDENTIALS_FILE`.
 We've also added 2 methods of persisting your account data.
 - Postgresql
 ```
@@ -18,7 +20,7 @@ We've also added 2 methods of persisting your account data.
 [postgres]
 uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
 ```
-- Sqlite
+- SQLite
 ```
 # Add to config.toml file
 
@@ -114,17 +116,18 @@ region = <AWS region>
 * That should be it. Try out the following from your command prompt to start the server:
 
 ```
-komiser start --config config.toml
+komiser start
 ```
 
 ## Komiser CLI (Restricted regions)
 ---
-There might be times when you would like to specifically restrict the scope of Komisers reach to a specific cloud region or a subset of them. This can be useful for organizations with tight SCPs in place. 
+There might be times when you would like to specifically restrict the scope of Komiser's reach to a specific cloud region or a subset of them. This can be useful for organizations with tight SCPs in place. 
 Add the `--regions` flag to the `Komiser start` command and seperate the regions with commas. 
 ```
-komiser start --config config.toml --regions eu-central-1,us-east-1,ap-southeast-1	
+komiser start --regions eu-central-1,us-east-1,ap-southeast-1	
 
 ``` 
+> Note that all AWS Global resources in your account will be retrieved even using the `--regions`
 
 
 ## EKS installation (single account)

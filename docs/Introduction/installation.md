@@ -12,19 +12,27 @@ You can install the CLI with a `curl` utility script or by downloading the binar
 ### Linux
 
 ```
-wget https://cli.komiser.io/2.11.0/linux/komiser
+wget https://cli.komiser.io/3.0.0/linux/komiser
 ```
 
 ### Windows
 
 ```
-wget https://cli.komiser.io/2.11.0/windows/komiser -OutFile komiser.exe
+wget https://cli.komiser.io/3.0.0/windows/komiser -OutFile komiser.exe
 ```
 
 ### Mac OS X
 
+For ARM architecture (M1 Chip)
+
 ```
-wget https://cli.komiser.io/2.11.0/osx/komiser
+wget https://cli.komiser.io/3.0.0/osx/arm/komiser
+```
+
+For AMD architecture (Intel Chip)
+
+```
+wget https://cli.komiser.io/3.0.0/osx/amd/komiser
 ```
 
 !!! Note
@@ -41,7 +49,7 @@ brew install komiser
 
 ## How to use
 
-### Komiser CLI
+### Komiser CLI installation
 
 <div style={{
     position: 'relative',
@@ -51,7 +59,7 @@ brew install komiser
     overflow:'hidden',
   }}>
   <iframe
-    src='https://www.youtube.com/embed/1QeHTTZNF4o'
+    src='https://www.youtube.com/watch?v=-jDXVO6NjVk&t=1s'
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
@@ -70,7 +78,7 @@ brew install komiser
 
 ```
 Usage:
-  komiser [command]
+  komiser start [command]
 ```
 
 ```
