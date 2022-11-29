@@ -12,19 +12,27 @@ You can install the CLI with a `curl` utility script or by downloading the binar
 ### Linux
 
 ```
-wget https://cli.komiser.io/2.11.0/linux/komiser
+wget https://cli.komiser.io/3.0.0/linux/komiser
 ```
 
 ### Windows
 
 ```
-wget https://cli.komiser.io/2.11.0/windows/komiser -OutFile komiser.exe
+wget https://cli.komiser.io/3.0.0/windows/komiser -OutFile komiser.exe
 ```
 
 ### Mac OS X
 
+For ARM architecture (M1 Chip)
+
 ```
-wget https://cli.komiser.io/2.11.0/osx/komiser
+wget https://cli.komiser.io/3.0.0/osx/arm/komiser
+```
+
+For AMD architecture (Intel Chip)
+
+```
+wget https://cli.komiser.io/3.0.0/osx/amd/komiser
 ```
 
 !!! Note
@@ -41,7 +49,7 @@ brew install komiser
 
 ## How to use
 
-### Komiser CLI
+### Komiser CLI installation
 
 <div style={{
     position: 'relative',
@@ -51,7 +59,7 @@ brew install komiser
     overflow:'hidden',
   }}>
   <iframe
-    src='https://www.youtube.com/embed/1QeHTTZNF4o'
+    src='https://www.youtube.com/watch?v=-jDXVO6NjVk&t=1s'
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
@@ -69,13 +77,19 @@ brew install komiser
 ### Options
 
 ```
-komiser start [OPTIONS]
+Usage:
+  komiser start [command]
 ```
 
 ```
-   --port value, -p value      Server port (default: 3000)
-   --duration value, -d value  Cache expiration time (default: 30 minutes)
-   --redis value, -r value     Redis server (localhost:6379)
+Available Commands:
+  config      Create configuration file
+  help        Help about any command
+  start       Run Komiser server
+  version     Show tool version
+
+Flags:
+  -h, --help   help for komiser
 ```
 
 ### Docker image 
@@ -87,7 +101,7 @@ Komiser is also available as a Docker image:
 There is no "latest" tag, so find the version of the CLI you want to use from the tags page on the Docker Hub. These correspond to the release from GitHub.
 
 ```
-docker run -d -p 3000:3000 --name komiser mlabouardy/komiser:2.11.0
+docker run -d -p 3000:3000 --name komiser tailwarden/komiser:3.0.0
 ```
 
 ### Docker installation tutorial
