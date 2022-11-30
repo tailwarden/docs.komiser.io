@@ -59,7 +59,7 @@ brew install komiser
     overflow:'hidden',
   }}>
   <iframe
-    src='https://www.youtube.com/watch?v=-jDXVO6NjVk&t=1s'
+    src='https://www.youtube.com/embed/-jDXVO6NjVk'
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
