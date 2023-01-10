@@ -23,7 +23,7 @@ wget https://cli.komiser.io/3.0.0/windows/komiser -O komiser.exe
 
 ### Mac OS X
 
-For ARM architecture (M1 Chip)
+For ARM architecture (M1 & M2 Chip)
 
 ```
 wget https://cli.komiser.io/3.0.0/osx/arm/komiser
