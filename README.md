@@ -1,7 +1,7 @@
 ![Readme-banner](./static/img/docs-banner-tw.png)
 <h1>Official Komiser Documentation</h1>
 <p>
-Repository for the Tailwarden Organization Public Documentation. It is the official Tailwarden site for publishing latest news, blog posts, and documentation from our open source community.
+This is the repository for the Tailwarden Organization Public Documentation. It is the official Tailwarden site for publishing latest news, blog posts, and documentation from our open source community.
 </p>
 
 </div>
