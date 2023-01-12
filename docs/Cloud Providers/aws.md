@@ -233,6 +233,23 @@ metadata:
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::ACCOUNT_ID:role/ROLE_NAME
 ```
+
+### Add custom values to config.toml file in [configMap template](https://github.com/tailwarden/helm/blob/master/templates/configmap-awsaccounts.yaml)
+```
+[[aws]]
+name="NAME"
+source="CREDENTIALS_FILE" // or use "ENVIRONMENT_VARIABLES"
+path="path/to/credentials"
+profile="default"
+
+[sqlite]
+file="komiser.db"
+
+// or 
+// [postgres]
+// uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
+```
+
 ### Installing the chart
 To install the chart:
 
@@ -242,7 +259,7 @@ $ helm install -f values.yaml komiser .
 
 The above command deploys Komiser on the Kubernetes cluster in the default configuration.
 
-### Watch tutorial
+### Here's a video tutorial on how to deploy Komiser to an EKS cluster:
 
 <div style={{
     position: 'relative',
@@ -252,7 +269,7 @@ The above command deploys Komiser on the Kubernetes cluster in the default confi
     overflow:'hidden',
   }}>
   <iframe
-    src='https://www.youtube.com/embed/3J0t-fWHDbs'
+    src='https://www.youtube.com/embed/4veDmJpui44'
     allowFullScreen
     webkitallowfullscreen="true"
     frameBorder="0"
