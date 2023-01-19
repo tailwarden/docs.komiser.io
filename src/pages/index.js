@@ -32,7 +32,7 @@ const FeatureList = [
     title: 'The Future of DevOps',
     description: (
       <>
-        Komiser is the first step in our plan to create the future generation of Developers and DevOps engineers. The future of DevOps can only be built with the understanding of what we actually have in our cloud accounts, and Komiser is here to help with exactly that.
+       The future of DevOps starts with knowing exactly what we have in our cloud accounts, and Komiser can you help discover every last one of your resources.
       </>
     ),
     imageUrl: 'img/devops-future.png'
@@ -96,7 +96,7 @@ export default function Home() {
   const {siteConfig: {customFields = {}, tagline} = {}} = context;
   return (
     <Layout title={tagline} description={customFields.description}>
-      <div className={styles.hero}>
+      <div className={(styles.hero, styles.heroDark)}>
         <div className={styles.heroInner}>
           <h1 className={styles.heroProjectTagline}>
             <img
