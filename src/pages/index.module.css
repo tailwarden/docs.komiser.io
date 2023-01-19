@@ -3,6 +3,7 @@
  * and scoped locally.
  */
 
+ 
  .heroBanner {
   padding: 4rem 0;
   text-align: center;
@@ -23,12 +24,7 @@
 }
 
 .hero {
-  background-color: #626f7c;
-  padding: 48px;
-}
-
-.heroDark {
-  background-color: #0d0e0f;
+  background-color: #626d7e;
   padding: 48px;
 }
 
@@ -140,11 +136,42 @@
 }
 
 .announcementDark {
-  background-color: #3a3c42;
+  background-color: #20232a;
   color: #fff;
 }
 
 .announcementInner {
   margin: 0 auto;
   max-width: 768px;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heroInner {
+    padding: 0;
+  }
+
+  .heroProjectTagline {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .heroLogo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+  }
+
+  .indexCtas {
+    justify-content: center;
+  }
+
+  .indexCtasGitHubButton {
+    display: none;
+  }
 }

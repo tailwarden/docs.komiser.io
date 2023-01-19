@@ -96,7 +96,7 @@ export default function Home() {
   const {siteConfig: {customFields = {}, tagline} = {}} = context;
   return (
     <Layout title={tagline} description={customFields.description}>
-      <div className={(styles.hero, styles.heroDark)}>
+      <div className={styles.hero}>
         <div className={styles.heroInner}>
           <h1 className={styles.heroProjectTagline}>
             <img
