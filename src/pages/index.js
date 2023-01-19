@@ -100,7 +100,7 @@ export default function Home() {
         <div className={styles.heroInner}>
           <h1 className={styles.heroProjectTagline}>
             <img
-              alt="Awe logo"
+              alt="Komiser logo"
               className={styles.heroLogo}
               src={useBaseUrl('img/komiser-logo-circle.png')}
             />
