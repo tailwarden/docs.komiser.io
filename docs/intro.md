@@ -8,7 +8,7 @@ sidebar_label: Overview
 
 ![Tailwarden](/img/komiser-overview-light.png#gh-light-mode-only)![Tailwarden](/img/komiser-overview-dark.png#gh-dark-mode-only)
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40mlabouardy)](https://twitter.com/tailwarden) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Optimize%20Cost%20and%20Security%20on%20AWS&url=https://github.com/mlabouardy/komiser&via=mlabouardy&hashtags=komiser,aws,gcp,cloud,serverless,devops)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/fold_left.svg?style=social&label=Follow%20%40tailwarden)](https://twitter.com/tailwarden) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Optimize%20Cost%20and%20Security%20on%20AWS&url=https://github.com/mlabouardy/komiser&via=mlabouardy&hashtags=komiser,aws,gcp,cloud,serverless,devops)
 
 This section is a high-level overview of how the Komiser Documentation is structured. It will help you use the documentation more effectively by guiding you on where to look for specific information.
 
@@ -34,10 +34,10 @@ Komiser supports multiple cloud providers and form of deployment.
 Follow the links below to get the installation steps for the each cloud provider: 
 
 * [AWS](/docs/Cloud%20Providers/aws.md)
-* [GCP](/docs/Cloud%20Providers/gcp.md)
+* [Civo](/docs/Cloud%20Providers/civo.md)
 * [OVH](/docs/Cloud%20Providers/ovh.md)
 * [DigitalOcean](/docs/Cloud%20Providers/digital-ocean.md)
-* [Azure](/docs/Cloud%20Providers/azure.md)
+* [OCI](/docs/Cloud%20Providers/oci.md)
 
 ## Contributing 
 Komiser is written in `Golang` and is `Elv2 licensed` - contributions are always welcome whether that means providing feedback, be it through GitHub, through the `#feedback` channel on our [Discord server](https://discord.tailwarden.com) or testing existing and new features. All of the relevant information below:

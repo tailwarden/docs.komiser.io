@@ -111,7 +111,7 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'Cloud Providers/azure',
+          id: 'Cloud Providers/civo',
         },
         {
           type: 'doc',
@@ -119,7 +119,7 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'Cloud Providers/gcp',
+          id: 'Cloud Providers/oci',
         },
         {
           type: 'doc',

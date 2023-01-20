@@ -96,13 +96,13 @@ export default function Home() {
   const {siteConfig: {customFields = {}, tagline} = {}} = context;
   return (
     <Layout title={tagline} description={customFields.description}>
-      <div className={styles.hero}>
-        <div className={styles.heroInner}>
+       <div className={styles.hero}>
+       <div className={styles.heroInner}>
           <h1 className={styles.heroProjectTagline}>
             <img
               alt="Komiser logo"
               className={styles.heroLogo}
-              src={useBaseUrl('img/komiser-logo-circle.png')}
+              src={useBaseUrl('img/Komiser-logomark.svg')}
             />
             <span className={styles.heroTitleTextHtml}>
               <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"
@@ -131,14 +131,13 @@ export default function Home() {
           <Translate
             values={{
               migrationGuideLink: (
-                <Link to="https://roadmap.tailwarden.com/komiser">
+                <Link to="https://roadmap.tailwarden.com/komiser" style={{color: 'black'}}>
                   <Translate>public roadmap!</Translate>
                 </Link>
               ),
             }}>
             {`Interested in what's to come? Check out our {migrationGuideLink}`}
           </Translate>
-          .
         </div>
       </div>
       <main>

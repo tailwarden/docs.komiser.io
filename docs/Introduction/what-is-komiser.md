@@ -5,7 +5,7 @@ sidebar_label: What is Komiser?
 ---
 # What is Komiser?
 
-![komiser-banner](/img/docs-banner-tw.png)
+![Komiser-banner](/img/what-is-light.png#gh-light-mode-only)![Komiser-banner](/img/what-is-dark.png#gh-dark-mode-only)
 
 **Komiser** is the `open-source` version of [Tailwarden](https://www.tailwarden.com/) (Enterprise edition).  
 
