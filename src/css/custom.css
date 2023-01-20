@@ -143,11 +143,11 @@ html[data-theme='dark'] .discord-icon::before {
 }
 
 .dev-portal-signup {
-  background-color: var(--ifm-color-primary-darker);
+  background-color: #009999;
 }
 
 .dev-portal-signup:hover {
-  background-color: var(--ifm-color-primary-darker);
+  background-color: #33CCCC;
 }
  
 .navbar-sidebar .pseudo-icon {

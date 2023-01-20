@@ -100,7 +100,7 @@ const config = {
             position: 'right',
           },
           {
-            label: 'Sign Up',
+            label: 'Try Cloud',
             href: 'https://cloud.tailwarden.com/signup',
             position: 'right',
             className: 'dev-portal-signup dev-portal-link',
