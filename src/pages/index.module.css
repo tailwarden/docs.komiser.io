@@ -22,27 +22,41 @@
   justify-content: center;
 }
 
-.hero {
-  background-color: #009999;
+html[data-theme='light'] .hero {
+  background-color: #fff;
   padding: 48px;
 }
 
+html[data-theme='dark'] .hero {
+  background-color: black;
+  padding: 48px;
+}
 
 .heroInner {
   margin: 0 auto;
   max-width: 1100px;
   padding: 0 20px;
+  color: #009999;
+  font-size: 24px;
+
 }
 
-.heroProjectTagline {
-  color: #fff;
-  font-size: 50px;
+html[data-theme='light'] .heroProjectTagline {
+  color: #008484;
+  font-size: 60px;
+  margin: 0;
+}
+
+html[data-theme='dark'] .heroProjectTagline {
+  color: linear-gradient(#33CCCC + #009999);
+  font-size: 60px;
   margin: 0;
 }
 
 .heroTitleTextHtml b {
-  color: #000000 ;
+  color: #009999 ;
 }
+
 
 @keyframes jackInTheBox {
   from {
@@ -81,19 +95,33 @@
 }
 
 .indexCtasGetStartedButton {
-  border: 2px solid #fff;
+  border: 2px solid #008484;
   display: inline-block;
   line-height: 1.2em;
   text-decoration: none !important;
   transition: background 0.3s, color 0.3s;
   border-radius: 8px;
+  color: #008484;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px 45px;
+}
+
+html[data-theme='light'] .indexTryMeButton {
+  border: 2px #33CCCC;
+  display: inline-block;
+  line-height: 1.2em;
+  text-decoration: none !important;
+  transition: 0.3s;
+  border-radius: 8px;
+  background-image: linear-gradient(#008484,#065555);
   color: #fff;
   font-size: 24px;
   font-weight: bold;
   padding: 18px 45px;
 }
 
-.indexTryMeButton {
+html[data-theme='dark'] .indexTryMeButton {
   border: 2px #33CCCC;
   display: inline-block;
   line-height: 1.2em;
@@ -101,11 +129,12 @@
   transition: 0.3s;
   border-radius: 8px;
   background-image: linear-gradient(#33CCCC,#009999);
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 24px;
   font-weight: bold;
   padding: 18px 45px;
 }
+
 
 .indexTryMeButton:hover {
   opacity: 0.8;
@@ -127,17 +156,14 @@
 
 .announcement {
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
+  color: #F5F5F5;
   padding: 48px;
   margin: 0 auto;
   text-align: center;
+  background-image: linear-gradient(#008484,#065555);
 }
 
-
-.announcementDark {
-  background-color: #33CCCC;
-  color: #fff;
-}
 
 .announcementInner {
   margin: 0 auto;
@@ -155,9 +181,11 @@
   }
 
   .heroProjectTagline {
-    color: #fff;
+    color: #009999;
     font-size: 36px;
     text-align: center;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
   }
 
   .heroLogo {

@@ -5,6 +5,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import Translate from '@docusaurus/Translate';
+import ThemedImage from '@theme/ThemedImage';
 
 import styles from './index.module.css';
 
@@ -58,39 +59,6 @@ function Feature({imageUrl, title, description, video}) {
   );
 }
 
-function HomepageFeatures() {
-  return (
-    <div className={clsx('container', styles.features)}>
-      <div className="row">
-        {FeatureList.map((props, idx) => (
-          <Feature key={idx} {...props} />
-        ))}
-      </div>
-    </div>
-  );
-}
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <p>What's coming next?</p>
-          <p>To stay in the loop, join our Discord and have the product updates regularly delivered to you.</p>
-          <Link
-            className="button button--secondary button--lg"
-            to="https://discord.tailwarden.com">
-            Join Discord
-          </Link>
-        </div>
-      </div>
-    </header>
-  );
-}
-
 export default function Home() {
   const context = useDocusaurusContext();
   const {siteConfig: {customFields = {}, tagline} = {}} = context;
@@ -98,30 +66,23 @@ export default function Home() {
     <Layout title={tagline} description={customFields.description}>
        <div className={styles.hero}>
        <div className={styles.heroInner}>
-          <h1 className={styles.heroProjectTagline}>
-            <img
+            <ThemedImage
               alt="Komiser logo"
               className={styles.heroLogo}
-              src={useBaseUrl('img/Komiser-logomark.svg')}
+              sources={{
+                light: useBaseUrl('/img/komiser-logo-light-mode.png'),
+                dark: useBaseUrl('/img/komiser-dark-mode.png'),
+              }}
             />
-            <span className={styles.heroTitleTextHtml}>
-              <Translate id="homepage.hero.title" description="Home page hero title, can contain simple html tags"
-                values={{
-                  loop: (<b><Translate>loop</Translate></b>),
-                  discord: (<b><Translate>Discord</Translate></b>),
-                  productUpdates: (<b><Translate>product updates</Translate></b>),
-                  you: (<b><Translate>you</Translate></b>)
-              }}>
-                {`Stay in the {loop}! Join our {discord} and have the {productUpdates} regularly delivered to {you}.`}
-              </Translate>
-            </span>
-          </h1>
+            <h1 className={styles.heroProjectTagline}>Stay in the loop! </h1>
+            <p>Join our discord and have <br /> the product updates regularly delivered to you</p>
+
           <div className={styles.indexCtas}>
-            <Link className={styles.indexCtasGetStartedButton} to={useBaseUrl('docs/overview/introduction/getting-started')}>
-              <Translate>Start using Komiser</Translate>
-            </Link>
-            <Link className={clsx('margin-left--md', styles.indexTryMeButton)} to="https://discord.tailwarden.com">
+          <Link className={styles.indexTryMeButton} to="https://discord.tailwarden.com">
               <Translate>Join Discord</Translate>
+            </Link>
+            <Link className={clsx('margin-left--md', styles.indexCtasGetStartedButton)} to={useBaseUrl('docs/overview/introduction/getting-started')}>
+              <Translate>Start using Komiser</Translate>
             </Link>
           </div>
         </div>
@@ -131,7 +92,7 @@ export default function Home() {
           <Translate
             values={{
               migrationGuideLink: (
-                <Link to="https://roadmap.tailwarden.com/komiser" style={{color: 'black'}}>
+                <Link to="https://roadmap.tailwarden.com/komiser" style={{color: 'white'}}>
                   <Translate>public roadmap!</Translate>
                 </Link>
               ),
@@ -156,6 +117,3 @@ export default function Home() {
     </Layout>
   );
 }
-
-
-

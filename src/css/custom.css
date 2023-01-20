@@ -49,6 +49,9 @@
 
   --docs-color-code-background: #f7d7d7;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --docs-color-hero-background-dark: #132625;
+  --docs-color-join-button-words-dark: #000000;
+  --docs-color-announcement-background-dark: linear-gradient(#008484,#065555);
 }
 
 nav.navbar {
