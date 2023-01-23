@@ -9,7 +9,7 @@ This repository contains the files required to build the Komiser Documentation H
 
 ## Contributing to the docs
 
-- The best way to get started is by reading the ["Contributor's Guide" blog post](https://www.tailwarden.com/blog/how-to-contribute-to-komiser?utm_source=docs&utm_medium=referral) along with the the [Contributor Guidelines](https://github.com/tailwarden/komiser/blob/master/CONTRIBUTING.md). 
+- The best way to get started is by reading the ["Contributor's Guide" blog post](https://www.tailwarden.com/blog/how-to-contribute-to-komiser?utm_source=docs&utm_medium=referral) along with the [Contributor Guidelines](https://github.com/tailwarden/komiser/blob/master/CONTRIBUTING.md). 
 - Afterwards, go ahead and **fork** the docs [repository](https://github.com/tailwarden/docs). Make any changes you want to your fork, and when you're ready to send those changes to us, go to your fork and create a new pull request.
 
 - If it takes longer than expected to get feedback from the `Tailwarden` team, head over to the [Discord Server](https://discord.tailwarden.com) and **ping** a Tailwarden staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
@@ -47,4 +47,4 @@ Once you’ve received review and approval, your commits are squashed, and your 
 </div>
 
 ---
-If you're in need of any assiatance at any stage of your contributing journey please don't hesitate to reach out to anybody in the `#general` or `#feedback` discord channels, also let us know if you want to be added to the private `#contributors` channel too. Or directly to `@mlabouardy` or `@JakePage` who will always be happy to help. 
+If you're in need of any assistance at any stage of your contributing journey please don't hesitate to reach out to anybody in the `#general` or `#feedback` discord channels, also let us know if you want to be added to the private `#contributors` channel too. Or directly to `@mlabouardy` or `@JakePage` who will always be happy to help. 
