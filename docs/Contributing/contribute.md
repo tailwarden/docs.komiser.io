@@ -14,7 +14,7 @@ This repository contains the files required to build the Komiser Documentation H
 
 - If it takes longer than expected to get feedback from the `Tailwarden` team, head over to the [Discord Server](https://discord.tailwarden.com) and **ping** a Tailwarden staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
 
-- Once your pull request has been opened it will be assigned to one or more reviewers. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation, comments, and style
+- Once your pull request has been opened, it will be assigned to one or more reviewers. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation, comments, and style
 
 - Make sure you include relevant updates or additions to documentation when creating or modifying features.
 Once you’ve received review and approval, your commits are squashed, and your PR is ready for merging.
