@@ -23,7 +23,7 @@ The Komiser Documentation covers everything you need to know about Komiser. It m
 ## Introduction
 
 In the `introduction` section you will find the three pages below. Since Komiser is an open-source project, we are fully aware that any OSS project is only as valuable as the community that surrounds it, that's why we want to make it as easy as possible for everyone to participate, you should be able to learn how to do that in the `Community` section.
-Head over to the `Installation` page to get the download the Komiser CLI for your OS and archetecture.
+Head over to the `Installation` page to get the download the Komiser CLI for your OS and architecture.
 The `What is Komiser?` page summarizes the goals and features of the Komiser project.
 
 - [Community](/docs/Introduction/community.md)
