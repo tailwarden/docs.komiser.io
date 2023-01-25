@@ -4,13 +4,16 @@
 
 Komiser now supports multiple cloud accounts by default. Account configuration is done through the config.toml file, using the `CREDENTIALS_FILE` method.
 We've also added 2 methods of persisting your account data.
-### Postgres
-#### Add to config.toml file
+
+### Data persistence
+Choose between these two methods of persisting your OCI account data.
+#### Postgres
+**Add to config.toml file**
 ```
 [postgres]
 uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
 ```
-### SQLite
+#### SQLite
 
 ```
 [sqlite]

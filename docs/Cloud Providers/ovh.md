@@ -2,6 +2,21 @@
 
 ## Local Komiser CLI (Single Account)
 
+### Data persistence
+Choose between these two methods of persisting your OVH account data.
+#### Postgres
+**Add to config.toml file**
+```
+[postgres]
+uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
+```
+#### SQLite
+
+```
+[sqlite]
+  file = "komiser.db"
+```
+
 ### Create and API
 * Create an API application from [here](https://eu.api.ovh.com/createToken/). 
 
