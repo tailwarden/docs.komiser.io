@@ -12,15 +12,17 @@ komiser start
 ---
 ![config-file](../../static/img/config-komiser.png)
 Komiser now supports multiple cloud accounts by default. Account configuration is done through the config.toml file, using either the `ENVIRONMENT_VARIABLES` or `CREDENTIALS_FILE`.
-We've also added 2 methods of persisting your account data.
-- Postgresql
-```
-# Add to config.toml file
 
+### Data persistence
+Choose between these two methods of persisting your AWS Account data.
+
+#### Postgres
+**Add to config.toml file**
+```
 [postgres]
 uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
 ```
-- SQLite
+#### SQLite
 ```
 # Add to config.toml file
 

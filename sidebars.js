@@ -123,7 +123,7 @@ const sidebars = {
         },
         {
           type: 'doc',
-          id: 'Cloud Providers/ovh',
+          id: 'Cloud Providers/k8s',
         },
       ],
     },
