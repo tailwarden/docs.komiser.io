@@ -2,7 +2,7 @@
 
 ## Local Komiser CLI integration with Kubernetes
 
-Komiser now supports multiple cloud accounts and Kubernetes clusters by default. Account configuration is done through the config.toml file. 
+Komiser now supports multiple cloud accounts and Kubernetes clusters by default. Account configuration is done through the `config.toml` file. 
 
 Pass in the path to your cluster's `config` file. Which you can find in your local `./kube` folder.
 

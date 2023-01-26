@@ -37,7 +37,6 @@ Follow the links below to get the installation steps for the each cloud provider
 
 - [AWS](/docs/Cloud%20Providers/aws.md)
 - [Civo](/docs/Cloud%20Providers/civo.md)
-- [OVH](/docs/Cloud%20Providers/ovh.md)
 - [DigitalOcean](/docs/Cloud%20Providers/digital-ocean.md)
 - [OCI](/docs/Cloud%20Providers/oci.md)
 - [Kubernetes](/docs/Cloud%20Providers/k8s.md)
