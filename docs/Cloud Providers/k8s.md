@@ -56,3 +56,28 @@ komiser start
 > In komiser v3.0.1 only `pods` and `services` are supported. More Kubernetes resources will be added shortly. 
 
 ![Kubernetes-dashboard](/img/kubernetes-image-docs.png)
+
+### Here's a video tutorial on how to integrate your Kubernetes cluster with Komiser:
+
+<div style={{
+    position: 'relative',
+    paddingBottom: '56.25%',
+    paddingTop:'30px',
+    height:0,
+    overflow:'hidden',
+  }}>
+  <iframe
+    src='https://www.youtube.com/embed/hSiVFjD0u3I'
+    allowFullScreen
+    webkitallowfullscreen="true"
+    frameBorder="0"
+    style={{
+      position: 'absolute',
+      top:0,
+      left:0,
+      width:'100%',
+      height:'100%',
+    }}
+  >
+  </iframe>
+</div>
