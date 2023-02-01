@@ -42,7 +42,7 @@ wget https://cli.komiser.io/3.0.1/osx/amd/komiser
 ### Homebrew installation
 
 ```
-brew upgrade
+brew update
 brew tap tailwarden/komiser
 brew install komiser
 ```
@@ -135,7 +135,6 @@ docker run -v /local/path/to/config.toml:/etc/config/config.toml  -v /local/path
 Head over to your cloud provider of choice to learn how to connect your Komiser CLI to your cloud account and to deploy a self hosted version of the tool. 
 
 * [AWS](/docs/Cloud%20Providers/aws.md)
-* [GCP](/docs/Cloud%20Providers/gcp.md)
-* [OVH](/docs/Cloud%20Providers/ovh.md)
+* [Civo](/docs/Cloud%20Providers/civo.md)
 * [DigitalOcean](/docs/Cloud%20Providers/digital-ocean.md)
-* [Azure](/docs/Cloud%20Providers/azure.md)
+* [Kubernetes](/docs/Cloud%20Providers/k8s.md)
