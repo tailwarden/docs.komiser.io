@@ -1,5 +1,5 @@
 ---
-slug: /overview/introduction/getting-started
+slug: /introduction/getting-started
 title: Installation
 sidebar_label: Installation
 ---

@@ -1,3 +1,9 @@
+---
+slug: /faqs
+title: FAQs
+sidebar_label: FAQs
+---
+
 # FAQs
 
 ## What's the difference between Tailwarden and Komiser?

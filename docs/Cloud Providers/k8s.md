@@ -1,3 +1,9 @@
+---
+slug: /cloud-providers/kubernetes
+title: Kubernetes
+sidebar_label: Kubernetes
+---
+
 # Kubernetes
 
 ## Local Komiser CLI integration with Kubernetes

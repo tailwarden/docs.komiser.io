@@ -1,3 +1,9 @@
+---
+slug: /cloud-providers/civo
+title: Civo
+sidebar_label: Civo
+---
+
 # Civo
 
 ## Local Komiser CLI (Single account)

@@ -1,5 +1,5 @@
 ---
-slug: /docs/introduction/community
+slug: /introduction/community
 title: community
 sidebar_label: Community
 ---

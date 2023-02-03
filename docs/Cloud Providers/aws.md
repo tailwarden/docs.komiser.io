@@ -1,3 +1,9 @@
+---
+slug: /cloud-providers/aws
+title: Amazon Web Services
+sidebar_label: Amazon Web Services
+---
+
 # Amazon Web Services
 
 ## Komiser configurations

@@ -42,65 +42,30 @@ const sidebars = {
       ],
     },
     {
-      type: 'category',
-      label: 'Guides',
-      items: [
-        {
-          type: 'category',
-          label: 'How to Komiser',
-          items: [
-            {
-              type: 'doc',
-              id: 'Guides/How to Komiser/overview',
-            },
-            {
-              type: 'doc',
-              id: 'Guides/How to Komiser/how-to-s3',
-            },
-            {
-              type: 'doc',
-              id: 'Guides/How to Komiser/how-to-ec2',
-            },
-            {
-              type: 'doc',
-              id: 'Guides/How to Komiser/alerts',
-            },
-          ]
-        },
-        {
-          type: 'category',
-          label: 'Cloud Cost Savings Tips',
-          items: [
-            {
-              type: 'doc',
-              id: 'Guides/Cloud Cost Savings Series/overview',
-            },
-            {
-            type: 'category',
-            label: 'AWS',
-            items: [
+    type: 'category',
+    label: 'Guides',
+    items: [
+      {
+        type: 'category',
+        label: 'How to Komiser',
+        items: [
               {
                 type: 'doc',
-                id: 'Guides/Cloud Cost Savings Series/AWS/lambda',
+                id: 'Guides/How to Komiser/Overview',
               },
               {
                 type: 'doc',
-                id: 'Guides/Cloud Cost Savings Series/AWS/ebs',
+                id: 'Guides/How to Komiser/tagging',
               },
               {
                 type: 'doc',
-                id: 'Guides/Cloud Cost Savings Series/AWS/cloudwatch',
-              },
-              {
-                type: 'doc',
-                id: 'Guides/Cloud Cost Savings Series/AWS/cloudwatch',
-              },
-              ],
-            },
-          ] 
-        }
-      ]
+                id: 'Guides/How to Komiser/customviews',
+              }
+            ]
+          },
+        ]
     },
+
     {
       type: 'category',
       label: 'Cloud Providers',
