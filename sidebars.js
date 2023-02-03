@@ -51,7 +51,7 @@ const sidebars = {
         items: [
               {
                 type: 'doc',
-                id: 'Guides/How to Komiser/Overview',
+                id: 'Guides/How to Komiser/overview',
               },
               {
                 type: 'doc',
