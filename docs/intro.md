@@ -15,9 +15,9 @@ This section is a high-level overview of how the Komiser Documentation is struct
 The Komiser Documentation covers everything you need to know about Komiser. It made up of five main sections which are:
 
 - [Introduction](/docs/Introduction/installation.md)
-- [Cloud Providers](/docs/Cloud%20Providers/aws.md)
+- [Cloud Providers](/docs/cloud-providers/aws)
 - [Contributing](/docs/Contributing/contribute.md)
-- [Guides](/docs/Introduction/)
+- [Guides](/docs/guides/overview)
 - [FAQs](/docs/FAQ/faq.md)
 
 ## Introduction
@@ -35,11 +35,11 @@ The `What is Komiser?` page summarizes the goals and features of the Komiser pro
 Komiser supports multiple cloud providers and form of deployment.
 Follow the links below to get the installation steps for the each cloud provider:
 
-- [AWS](/docs/Cloud%20Providers/aws.md)
-- [Civo](/docs/Cloud%20Providers/civo.md)
-- [DigitalOcean](/docs/Cloud%20Providers/digital-ocean.md)
-- [OCI](/docs/Cloud%20Providers/oci.md)
-- [Kubernetes](/docs/Cloud%20Providers/k8s.md)
+- [AWS](/docs/cloud-providers/aws)
+- [Civo](/docs/cloud-providers/civo)
+- [DigitalOcean](/docs/cloud-providers/digital-ocean)
+- [OCI](/docs/cloud-providers/oci)
+- [Kubernetes](/docs/cloud-providers/kubernetes)
 
 ## Contributing
 
@@ -50,10 +50,8 @@ Komiser is written in `Golang` and is `Elv2 licensed` - contributions are always
 ## Guides
 
 We want to be able to give Komiser users the tips and guidance neccessary to be able to get the most value from the tool as quickly as possible. That's why we will be continously adding and updating informative guides and series in which try to relay valuable and actionable advice.
-Currently we have two series:
 
-- [Cloud Cost Savings Tips](/docs/Guides/Cloud%20Cost%20Savings%20Series/overview.md)
-- [How to: Komiser](/docs/Guides/How%20to%20Komiser/alerts.md)
+- [How to Komiser](/docs/guides/overview)
 
 ## FAQs
 
