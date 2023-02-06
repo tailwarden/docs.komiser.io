@@ -1,3 +1,9 @@
+---
+slug: /cloud-providers/oci
+title: Oracle Cloud Infrastructure (OCI)
+sidebar_label: Oracle Cloud Infrastructure (OCI)
+---
+
 # Oracle Cloud Infrastructure (OCI)
 
 ## Local Komiser CLI (Single Account)

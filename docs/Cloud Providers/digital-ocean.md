@@ -1,3 +1,9 @@
+---
+slug: /cloud-providers/digital-ocean
+title: Digital Ocean
+sidebar_label: Digital Ocean
+---
+
 # Digital Ocean
 
 ## Local Komiser CLI (Single Account)

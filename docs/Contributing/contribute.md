@@ -1,5 +1,5 @@
 ---
-slug: /introduction/contribute
+slug: /contributing/contribute
 title: contribute
 sidebar_label: Contribute
 ---
