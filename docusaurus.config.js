@@ -138,11 +138,11 @@ const config = {
             items: [
               {
                 label: 'Getting Started',
-                to: '/docs/overview/introduction/getting-started',
+                to: '/docs/introduction/getting-started',
               },
               {
                 label: 'Contribute',
-                to: '/docs/introduction/contribute',
+                to: '/docs/contributing/contribute',
               },
               {
                 label: 'Public Roadmap',

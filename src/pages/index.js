@@ -81,7 +81,7 @@ export default function Home() {
           <Link className={styles.indexTryMeButton} to="https://discord.tailwarden.com">
               <Translate>Join Discord</Translate>
             </Link>
-            <Link className={clsx('margin-left--md', styles.indexCtasGetStartedButton)} to={useBaseUrl('docs/overview/introduction/getting-started')}>
+            <Link className={clsx('margin-left--md', styles.indexCtasGetStartedButton)} to={useBaseUrl('docs/introduction/getting-started')}>
               <Translate>Start using Komiser</Translate>
             </Link>
           </div>
