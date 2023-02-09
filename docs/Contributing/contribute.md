@@ -5,7 +5,7 @@ sidebar_label: Contribute
 ---
 # Contribute
 
-This repository contains the files required to build the Komiser Documentation Hub. To any [contributors](https://github.com/komiserio/docs/blob/master/docs/contributing.md) willing to add to the project, before anything else, Thank you!
+This repository contains the files required to build the Komiser Documentation Hub. To any [contributors](https://github.com/tailwarden/komiser/blob/master/CONTRIBUTING.md) willing to add to the project, before anything else, Thank you!
 
 ## Contributing to the docs
 
