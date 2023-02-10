@@ -454,27 +454,3 @@ metadata:
         - name: test-volume
             configMap:
             name: aws-configmap
-
-### Watch tutorial
-<div style={{
-    position: 'relative',
-    paddingBottom: '56.25%',
-    paddingTop:'30px',
-    height:0,
-    overflow:'hidden',
-  }}>
-  <iframe
-    src='https://www.youtube.com/embed/pYfjHKM1gzw'
-    allowFullScreen
-    webkitallowfullscreen="true"
-    frameBorder="0"
-    style={{
-      position: 'absolute',
-      top:0,
-      left:0,
-      width:'100%',
-      height:'100%',
-    }}
-  >
-  </iframe>
-</div>

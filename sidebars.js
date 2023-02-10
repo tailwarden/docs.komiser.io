@@ -90,6 +90,14 @@ const sidebars = {
           type: 'doc',
           id: 'Cloud Providers/k8s',
         },
+        {
+          type: 'doc',
+          id: 'Cloud Providers/linode',
+        },
+        {
+          type: 'doc',
+          id: 'Cloud Providers/tencent',
+        },
       ],
     },
     {
