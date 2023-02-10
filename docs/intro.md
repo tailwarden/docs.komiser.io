@@ -40,6 +40,8 @@ Follow the links below to get the installation steps for the each cloud provider
 - [DigitalOcean](/docs/cloud-providers/digital-ocean)
 - [OCI](/docs/cloud-providers/oci)
 - [Kubernetes](/docs/cloud-providers/kubernetes)
+- [Linode](/docs/cloud-providers/linode)
+- [Tencent](/docs/cloud-providers/tencent)
 
 ## Contributing
 

@@ -8,7 +8,7 @@ sidebar_label: Civo
 
 ## Local Komiser CLI (Single account)
 
-Komiser now supports multiple cloud accounts by default. Account configuration is done through the config.toml file, just pass in your account `API Token`.
+Komiser now supports multiple cloud accounts by default. Account configuration is done through the `config.toml` file, just pass in your account `API Token`.
 
 We've also added 2 methods of persisting your account data.
 ### Postgres
