@@ -26,7 +26,7 @@ We collect telemetry data for only two reasons:
 
 ## What tools do we use to collect and visualize data?
 
-We use [Segment](https://segment.com/), a platform for data collection and management, to collect usage data. We then feed that data into [Amplitude](https://amplitude.com/), a tool for graphing and highlighting data, so that we can build visualizations according to our needs. As for errors collection, we use [Sentry](https://sentry.io/).
+We use [Segment](https://segment.com/), a platform for data collection and management, to collect usage data. We then feed that data into [Amplitude](https://amplitude.com/), a tool for graphing and highlighting data, so that we can build visualizations according to our needs. As for error collection, we use [Sentry](https://sentry.io/).
 
 ## How to disable data collection
 
