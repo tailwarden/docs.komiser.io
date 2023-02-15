@@ -6,13 +6,6 @@ sidebar_label: Amazon Web Services
 
 # Amazon Web Services
 
-## Collected resources
-
-- EC2 instances
-- S3 buckets
-- IAM roles
-- ...
-
 ## Komiser configurations
 From Komiser v3 onwards we specify our komiser configuration by way of a `config.toml` file. If you place the config.toml file in the same directory as the Komiser binary then it will pick it up by default, if it's placed in a different location, then we need to pass in the path using the `--config` flag. 
 
