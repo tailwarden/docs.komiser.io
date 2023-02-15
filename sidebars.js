@@ -112,6 +112,10 @@ const sidebars = {
     },
     {
       type: 'doc',
+      id: 'Telemetry/telemetry',
+    },
+    {
+      type: 'doc',
       id: 'FAQ/faq',
     },
   ]  
