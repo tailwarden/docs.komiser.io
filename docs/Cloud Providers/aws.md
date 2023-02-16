@@ -36,7 +36,7 @@ uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
   file = "komiser.db"
 ```
 
- *The reason for this external data persistence is to improve the filtering, sorting and tagging management experience making is faster and smoother. It also serves as a standalone DB which you are free to query and visualize as you see fit.*  
+ *The reason for this external data persistence is to improve the filtering, sorting and tagging management experience making it faster and smoother. It also serves as a standalone DB which you are free to query and visualize as you see fit.*  
 
 ### Example config.toml
 ```
