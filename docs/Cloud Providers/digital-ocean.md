@@ -6,6 +6,12 @@ sidebar_label: Digital Ocean
 
 # Digital Ocean
 
+## Supported resources
+- Droplets 
+- Firewalls
+- LoadBalancers
+- VPCs
+
 ## Local Komiser CLI (Single Account)
 
 ### Generate personal access token

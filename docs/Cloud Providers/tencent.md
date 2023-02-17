@@ -6,6 +6,9 @@ sidebar_label: Tencent
 
 # Tencent
 
+## Supported resources
+- Compute instances
+
 ## Local Komiser CLI (Single account)
 
 Komiser now supports multiple cloud accounts by default. Account configuration is done through the `config.toml` file, just pass in your account `API Token`.

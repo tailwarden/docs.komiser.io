@@ -6,6 +6,9 @@ sidebar_label: Oracle Cloud Infrastructure (OCI)
 
 # Oracle Cloud Infrastructure (OCI)
 
+## Supported resources
+- Compute instances
+
 ## Local Komiser CLI (Single Account)
 
 Komiser now supports multiple cloud accounts by default. Account configuration is done through the config.toml file, using the `CREDENTIALS_FILE` method.

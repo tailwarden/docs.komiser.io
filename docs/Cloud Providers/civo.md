@@ -6,6 +6,15 @@ sidebar_label: Civo
 
 # Civo
 
+## Supported resources
+- Compute instances
+- Kubernetes clusters
+- Firewalls
+- LoadBalancers
+- Networks
+- Object stores
+- Volumes
+
 ## Local Komiser CLI (Single account)
 
 Komiser now supports multiple cloud accounts by default. Account configuration is done through the `config.toml` file, just pass in your account `API Token`.
