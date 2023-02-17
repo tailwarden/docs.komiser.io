@@ -7,7 +7,7 @@ sidebar_label: Oracle Cloud Infrastructure (OCI)
 # Oracle Cloud Infrastructure (OCI)
 
 ## Supported resources
-- Compute intances
+- Compute instances
 
 ## Local Komiser CLI (Single Account)
 

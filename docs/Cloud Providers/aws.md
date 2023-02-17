@@ -12,7 +12,7 @@ sidebar_label: Amazon Web Services
 - CloudWatch alarms
 - DynamoDB tables
 - Access control lists
-- EC2 intances
+- EC2 instances
 - Security groups
 - Subnets
 - Volumes
@@ -23,9 +23,9 @@ sidebar_label: Amazon Web Services
 - ECS tasks
 - Elastic file systems
 - EKS clusters
-- ElasticsSearch clusters
+- ElasticSearch clusters
 - Elastic LoadBalancers
-- IAM Roles
+- IAM roles
 - KMS keys
 - Lambda functions
 - RDS clusters
