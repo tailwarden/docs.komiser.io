@@ -8,6 +8,11 @@ sidebar_label: Oracle Cloud Infrastructure (OCI)
 
 ## Supported resources
 - Compute instances
+- Identity policies
+- Autonomous databases
+- Functions
+- Object storage
+- Storage block volumes
 
 ## Local Komiser CLI (Single Account)
 
