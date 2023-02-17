@@ -6,6 +6,33 @@ sidebar_label: Amazon Web Services
 
 # Amazon Web Services
 
+## Supported resources
+- API Gateway
+- CloudFront distributions
+- CloudWatch alarms
+- DynamoDB tables
+- Access control lists
+- EC2 intances
+- Security groups
+- Subnets
+- Volumes
+- VPCs
+- ECR repositories
+- ECS clusters
+- ECS services
+- ECS tasks
+- Elastic file systems
+- EKS clusters
+- ElasticsSearch clusters
+- Elastic LoadBalancers
+- IAM Roles
+- KMS keys
+- Lambda functions
+- RDS clusters
+- S3 buckets
+- SNS topics
+- SQS queues
+
 ## Komiser configurations
 From Komiser v3 onwards we specify our komiser configuration by way of a `config.toml` file. If you place the config.toml file in the same directory as the Komiser binary then it will pick it up by default, if it's placed in a different location, then we need to pass in the path using the `--config` flag. 
 

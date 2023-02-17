@@ -6,6 +6,14 @@ sidebar_label: Linode
 
 # Linode
 
+## Supported resources
+- Compute instances
+- Firewalls
+- NodeBalancers
+- Buckets
+- Databases
+- Volumes
+
 ## Local Komiser CLI (Single account)
 
 Komiser now supports multiple cloud accounts by default. Account configuration is done through the `config.toml` file, just pass in your account `API Token`.

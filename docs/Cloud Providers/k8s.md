@@ -6,6 +6,15 @@ sidebar_label: Kubernetes
 
 # Kubernetes
 
+## Supported resources
+- Deployments
+- Ingress controllers
+- Pods
+- PersistentVolumes
+- PersistentVolumeClaims
+- ServiceAccounts
+- Services
+
 ## Local Komiser CLI integration with Kubernetes
 
 Komiser now supports multiple cloud accounts and Kubernetes clusters by default. Account configuration is done through the `config.toml` file. 
