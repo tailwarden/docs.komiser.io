@@ -12,30 +12,69 @@ sidebar_label: Digital Ocean
 - LoadBalancers
 - VPCs
 
-## Local Komiser CLI (Single Account)
+## Local Komiser CLI (Single account)
 
-### Generate personal access token
-* Log in to the [DigitalOcean Control Panel](https://cloud.digitalocean.com/).
+Komiser now supports multiple cloud accounts by default. Account configuration is done through the `config.toml` file, just pass in your account `Personal access Token`.
 
-* Click the **API** link in the main navigation, In the **Personal access tokens** section, click the **Generate New Token** button.
-
-* Create a *ready-only* scope token. When you click **Generate Token**, your token will be generated.
-
-### Set `DIGITALOCEAN_ACCESS_TOKEN` environment variable locally
-* Set *DIGITALOCEAN_ACCESS_TOKEN* environment variable:
+We've also added 2 methods of persisting your account data.
+### Postgres
+#### Add to config.toml file
+```
+[postgres]
+uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
+```
+### SQLite
 
 ```
-export DIGITALOCEAN_ACCESS_TOKEN=<TOKEN>
+[sqlite]
+  file = "komiser.db"
 ```
+
+### Configuring Credentials
+
+Firstly create your DigitalOcean `personal access token` from the DigitalOcean console.
+
+Click the `API` link in the main navigation, which takes you to the `Applications & API` page on the `Tokens/Keys` tab. In the Personal access tokens section, click the `Generate New Token` button.
+
+Need help finding it? Head on over to the official DigitalOcean [documentation](https://docs.digitalocean.com/reference/api/create-personal-access-token/).
+
+### Add your DigitalOcean personal access token to your confuriation file
+
+```
+[[digitalocean]]
+name="demo-account"
+token="yourApiTokenHere"
+
+[sqlite]
+file="komiser.db
+```
+                                        
 
 ### Run it!
 * That should be it. Try out the following from your command prompt to start the server:
 
 ```
-komiser start --port 3000
+komiser start 
 ```
-* If you point your browser to http://localhost:3000, you should be able to see your projects:
 
-<p align="center">
-    <img src="https://cdn.komiser.io/images/dashboard-digitalocean.png"/>
-</p>
+* Point your browser to `http://localhost:3000`
+
+## Local Komiser CLI (Multiple accounts)
+Simply add more authentication blocks to the configuration file
+
+```
+[[digitalocean]]
+name="demo-account"
+token="yourApiTokenHere"
+
+[[digitalocean]]
+name="sandbox"
+token="yourSandboxApiTokenHere"
+
+[[digitalocean]]
+name="production"
+token="yourProductionApiTokenHere"
+
+[sqlite]
+file="komiser.db
+```
