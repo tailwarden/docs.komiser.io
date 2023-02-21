@@ -113,7 +113,7 @@ path=./path/to/credentials/file
 profile="default"
 ```
 ### Credentials file
-It us not recommended to add you AWS Access and Secret Access key in the credentials file. The most secure way of authentication is by using temporary credentials through IAM roles. 
+It is not recommended to add your AWS Access and Secret Access key in the credentials file in `production`. The most secure way of authentication is by using temporary credentials through IAM roles. 
 
 Example
 ```
