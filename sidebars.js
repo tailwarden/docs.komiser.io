@@ -76,6 +76,10 @@ const sidebars = {
         },
         {
           type: 'doc',
+          id: 'Cloud Providers/azure',
+        },
+        {
+          type: 'doc',
           id: 'Cloud Providers/civo',
         },
         {
