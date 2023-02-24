@@ -12,13 +12,13 @@ You can install the CLI with a `curl` utility script or by downloading the binar
 ### Linux
 
 ```
-wget https://cli.komiser.io/3.0.3/linux/komiser
+wget https://cli.komiser.io/3.0.4/linux/komiser
 ```
 
 ### Windows
 
 ```
-wget https://cli.komiser.io/3.0.3/windows/komiser -O komiser.exe
+wget https://cli.komiser.io/3.0.4/windows/komiser -O komiser.exe
 ```
 
 ### Mac OS X
@@ -26,13 +26,13 @@ wget https://cli.komiser.io/3.0.3/windows/komiser -O komiser.exe
 For ARM architecture (M1 & M2 Chip)
 
 ```
-wget https://cli.komiser.io/3.0.3/osx/arm/komiser
+wget https://cli.komiser.io/3.0.4/osx/arm/komiser
 ```
 
 For AMD architecture (Intel Chip)
 
 ```
-wget https://cli.komiser.io/3.0.3/osx/amd/komiser
+wget https://cli.komiser.io/3.0.4/osx/amd/komiser
 ```
 
 > Note
@@ -103,7 +103,7 @@ Check Docker Hub of the Komiser changelog to find the latest version of Komiser.
 > Note: From Komiser v3 onwards, we natively support multiple cloud account authentication through the `config.toml` file, you will need to mount this fill along with a credentials file (not needed is using ENVIRONMENT_VARIABLES as the auth source) to the Docker container using the `-v` flags as seen in the `Docker run` command below. 
 
 ```
-docker run -v /local/path/to/config.toml:/etc/config/config.toml  -v /local/path/to/credentials.yaml:/etc/config/credentials.yaml -d -p 3000:3000 --name komiser  tailwarden/komiser:3.0.3 komiser start --config /etc/config/config.toml
+docker run -v /local/path/to/config.toml:/etc/config/config.toml  -v /local/path/to/credentials.yaml:/etc/config/credentials.yaml -d -p 3000:3000 --name komiser  tailwarden/komiser:3.0.4 komiser start --config /etc/config/config.toml
 ```
 
 ### Docker installation tutorial
@@ -135,6 +135,7 @@ docker run -v /local/path/to/config.toml:/etc/config/config.toml  -v /local/path
 Head over to your cloud provider of choice to learn how to connect your Komiser CLI to your cloud account and to deploy a self hosted version of the tool. 
 
 * [AWS](/docs/cloud-providers/aws)
+* [Azure](//docs/Cloud%20Providers/azure.md)
 * [Civo](/docs/cloud-providers/civo)
 * [DigitalOcean](/docs/cloud-providers/digital-ocean)
 * [Kubernetes](/docs/cloud-providers/kubernetes)
