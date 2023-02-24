@@ -135,7 +135,7 @@ docker run -v /local/path/to/config.toml:/etc/config/config.toml  -v /local/path
 Head over to your cloud provider of choice to learn how to connect your Komiser CLI to your cloud account and to deploy a self hosted version of the tool. 
 
 * [AWS](/docs/cloud-providers/aws)
-* [Azure](//docs/Cloud%20Providers/azure.md)
+* [Azure](/docs/cloud-providers/azure)
 * [Civo](/docs/cloud-providers/civo)
 * [DigitalOcean](/docs/cloud-providers/digital-ocean)
 * [Kubernetes](/docs/cloud-providers/kubernetes)
