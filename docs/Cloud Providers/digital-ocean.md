@@ -38,7 +38,7 @@ Click the `API` link in the main navigation, which takes you to the `Application
 
 Need help finding it? Head on over to the official DigitalOcean [documentation](https://docs.digitalocean.com/reference/api/create-personal-access-token/).
 
-### Add your DigitalOcean personal access token to your confuriation file
+### Add your DigitalOcean personal access token to your configuration file
 
 ```
 [[digitalocean]]

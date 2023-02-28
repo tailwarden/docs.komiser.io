@@ -142,3 +142,4 @@ Head over to your cloud provider of choice to learn how to connect your Komiser 
 * [OCI](/docs/cloud-providers/oci)
 * [Linode](/docs/cloud-providers/linode)
 * [Tencent](/docs/cloud-providers/tencent)
+* [Scaleway](/docs/cloud-providers/scaleway)
