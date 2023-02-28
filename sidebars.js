@@ -106,6 +106,10 @@ const sidebars = {
           type: 'doc',
           id: 'Cloud Providers/tencent',
         },
+        {
+          type: 'doc',
+          id: 'Cloud Providers/scaleway',
+        },
       ],
     },
     {
