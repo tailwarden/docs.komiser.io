@@ -41,6 +41,7 @@ In the configuration file you add the OCI account name, authentication method (C
 [[oci]]
 name="sandbox-account"
 source="CREDENTIALS_FILE"
+path="Users/name/.oci/credentials"
 profile="default"
 
 [sqlite]
@@ -98,9 +99,7 @@ region=eu-paris-1
 key_password=PASSWORD
 ```
 
-The Komiser CLI will successively attempt to locate this `credentials` file in:
-
- * Current user's home directory `~/.oci`
+> Make sure that the path added in the `config.toml` is correct to ensure that Komiser has access to the credentials file.  
 
 
 ### Run it!
@@ -119,16 +118,19 @@ Simply add more authentication blocks to the configuration file
 [[oci]]
 name="sandbox-account"
 source="CREDENTIALS_FILE"
+path="Users/name/.oci/credentials"
 profile="DEFAULT"
 
 [[oci]]
 name="admin-account"
 source="CREDENTIALS_FILE"
+path="Users/name/.oci/credentials"
 profile="ADMIN"
 
 [[oci]]
 name="production-account"
 source="CREDENTIALS_FILE"
+path="Users/name/.oci/credentials"
 profile="PRODUCTION"
 
 [sqlite]
