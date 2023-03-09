@@ -42,6 +42,7 @@ Follow the links below to get the installation steps for the each cloud provider
 - [Kubernetes](/docs/cloud-providers/kubernetes)
 - [Linode](/docs/cloud-providers/linode)
 - [Tencent](/docs/cloud-providers/tencent)
+- [MongoDB Atlas](/docs/cloud-providers/mongodb-atlas)
 
 ## Contributing
 

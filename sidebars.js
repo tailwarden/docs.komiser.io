@@ -110,6 +110,10 @@ const sidebars = {
           type: 'doc',
           id: 'Cloud Providers/scaleway',
         },
+        {
+          type: 'doc',
+          id: 'Cloud Providers/mongodbatlas',
+        },
       ],
     },
     {
