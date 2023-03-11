@@ -47,6 +47,33 @@ brew tap tailwarden/komiser
 brew install komiser
 ```
 
+## Create a TOML Configuration File
+
+Komiser requires a TOML configuration file to connect to your AWS account. Inside a directory create a new file called `config.toml` and add the following content into it:
+
+    [[aws]]
+    region = "us-east-1"
+    access_key_id = "YOUR_ACCESS_KEY_ID"
+    secret_access_key = "YOUR_SECRET_ACCESS_KEY"
+    session_token = "YOUR_SESSION_TOKEN (OPTIONAL)"
+
+Replace the placeholders with your AWS credentials. If you don't have an `access key ID` and `secret access key`, you can find them in your AWS account.
+
+To find these credentials, login with IAM user or root user in AWS. IAM user is preferred. Go to the upper right side menu where your username is written. 
+
+Click on it and in the dropdown menu, click on the **security credentials** option. It will lead you to this [website](https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html).
+
+Scroll down and you will find the **Access Keys** options. Click on to create a new access key.
+
+After creating the key, a CSV file will be downloaded that will contain `access key ID` and `secret access key`.
+
+Once you enter the details in the `config.toml`, type `./komiser start config`. You will see the following error.
+
+    INFO[2023-03-10T21:19:48+05:00] Debug logging is enabled                     
+    Error: postgres URI or sqlite file is missing
+
+Now you have to either use the Postgres or SQLite to make this running.
+
 ## How to use
 
 ### Komiser CLI installation
