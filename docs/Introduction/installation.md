@@ -5,6 +5,14 @@ sidebar_label: Installation
 ---
 # Installation
 
+## Prerequisites
+
+- Make sure that you have PostgresSQL or SQLite installed on your computer.
+
+- Make sure to create a directory where you want to install Komiser.
+
+- Create a TOML configuration file called `config.toml` in the directory where you installed Komiser. The data will be inserted in it later on in this guide.
+
 ## Getting started
 
 You can install the CLI with a `curl` utility script or by downloading the binary from the releases page. Once installed you'll get the `komiser` command.
@@ -35,9 +43,7 @@ For AMD architecture (Intel Chip)
 wget https://cli.komiser.io/3.0.5/osx/amd/komiser
 ```
 
-> Note
-    Make sure to add the execution permission to Komiser `chmod +x komiser`.
-
+> **Note: Make sure to add the execution permission to Komiser `chmod +x komiser`.**
 
 ### Homebrew installation
 
