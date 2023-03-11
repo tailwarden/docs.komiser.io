@@ -13,6 +13,31 @@ sidebar_label: Installation
 
 - Create a TOML configuration file called `config.toml` in the directory where you installed Komiser. The data will be inserted in it later on in this guide.
 
+### What is Toml
+
+TOML (Tom's Obvious, Minimal Language) is a configuration file format that is designed to be easy to read and write for both humans and machines. It was created by Tom Preston-Werner, co-founder of GitHub.
+
+It has a simple structure, consisting of key-value pairs organized into tables, with the use of indentation to indicate nesting. It also supports various data types such as strings, integers, floats, booleans, arrays, and tables.
+
+Here is an example of a simple TOML configuration file:
+
+# This is a TOML document.
+
+    title = "Example Config File"
+
+    [database]
+    server = "localhost"
+    port = 3306
+    username = "admin"
+    password = "password123"
+
+    [server]
+    ip = "127.0.0.1"
+    port = 8080
+    debug = true
+
+In this example, there are two tables: **database** and **server**. The t**database** table contains information about the database server, such as the server name, port number, username, and password. The **server** table contains information about the application server, such as the IP address, port number, and a boolean flag to enable debugging.
+
 ## Getting started
 
 You can install the CLI with a `curl` utility script or by downloading the binary from the releases page. Once installed you'll get the `komiser` command.
