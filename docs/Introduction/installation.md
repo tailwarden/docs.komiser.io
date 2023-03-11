@@ -72,6 +72,28 @@ wget https://cli.komiser.io/3.0.5/osx/amd/komiser
 
 ### Homebrew installation
 
+You can install Komiser using Homebrew on macOS by following these steps:
+
+1. Open Terminal on your Mac.
+
+2. Install Homebrew if you haven't already by running the following command:
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+3. Once Homebrew is installed, run the following command to add the Komiser tap:
+
+`brew tap komiserio/komiser`
+
+4. Finally, install Komiser by running the following command:
+
+`brew install komiser`
+
+5. After the installation is complete, you can verify that Komiser is installed by running the following command:
+
+`komiser --version`
+
+This should display the current version of Komiser installed on your system.
+
 ```
 brew update
 brew tap tailwarden/komiser
