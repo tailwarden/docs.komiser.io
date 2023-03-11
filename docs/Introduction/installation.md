@@ -47,6 +47,51 @@ brew tap tailwarden/komiser
 brew install komiser
 ```
 
+## Postgres URI
+
+Install and run the PostgreSQL. To check it running, type `systemctl status postgresql`.
+
+Here are the steps to install PostgreSQL:
+
+1. Open a terminal window on your operating system.
+
+2. Install PostgreSQL using your operating system's package manager. Here are some examples for popular operating systems:
+
+    - For Ubuntu or Debian: `sudo apt-get install postgresql`
+    - For Red Hat or CentOS: `sudo yum install postgresql-server`
+    - For macOS with Homebrew: `brew install postgresql`
+
+3. Once PostgreSQL is installed, start the PostgreSQL server by running the following command:
+
+    - For Ubuntu or Debian: `sudo systemctl start postgresql`
+    - For Red Hat or CentOS: `sudo systemctl start postgresql`
+    - For macOS with Homebrew: `brew services start postgresql`
+
+4. Optionally, you can configure PostgreSQL to start automatically when your computer starts:
+
+    - For Ubuntu or Debian: `sudo systemctl enable postgresql`
+    - For Red Hat or CentOS: `sudo systemctl enable postgresql`
+    - For macOS with Homebrew: `brew services start postgresql`
+    
+5. You can now connect to the PostgreSQL server using the psql command-line tool. To connect to the default PostgreSQL database, run the following command:
+    
+    `psql postgres`
+
+After the PostgreSQL installation, type the following credentials in the `config.toml` file.
+
+    # PostgreSQL configuration
+    [postgres]
+    host = "localhost"
+    port = 5432
+    database = "mydb"
+    username = "myuser"
+    password = "mypassword"
+
+Or you can type this 
+
+    [postgres]
+    uri = "postgres://postgres:komiser@localhost:5432/komiser-3sslmode=disable"
+
 ## How to use
 
 ### Komiser CLI installation
