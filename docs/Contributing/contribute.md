@@ -9,17 +9,36 @@ This repository contains the files required to build the Komiser Documentation H
 
 ## Contributing to the docs
 
-- The best way to get started is by reading the ["Contributor's Guide" blog post](https://www.tailwarden.com/blog/how-to-contribute-to-komiser?utm_source=docs&utm_medium=referral) along with the [Contributor Guidelines](https://github.com/tailwarden/komiser/blob/master/CONTRIBUTING.md). 
-- Afterwards, go ahead and **fork** the docs [repository](https://github.com/tailwarden/docs). Make any changes you want to your fork, and when you're ready to send those changes to us, go to your fork and create a new pull request.
+To start contributing to Komiser, first fork and clone repository on GitHub by following these steps:
 
-- If it takes longer than expected to get feedback from the `Tailwarden` team, head over to the [Discord Server](https://discord.tailwarden.com) and **ping** a Tailwarden staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
+- **Read the contributors Guide:** The first step is to start reading the ["Contributor's Guide" blog post](https://www.tailwarden.com/blog/how-to-contribute-to-komiser?utm_source=docs&utm_medium=referral) along with the [Contributor Guidelines](https://github.com/tailwarden/komiser/blob/master/CONTRIBUTING.md). 
 
-- Once your pull request has been opened, it will be assigned to one or more reviewers. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation, comments, and style
+- **Fork the repository:** Go to the GitHub page of the [repository](https://github.com/tailwarden/docs) you want to fork and click on the "Fork" button in the top-right corner of the page. This will create a copy of the repository in your own GitHub account.
 
-- Make sure you include relevant updates or additions to documentation when creating or modifying features.
+- **Clone the repository:** Once you have forked the repository, go to your own GitHub account and open the repository you just forked. Click on the green "Code" button and copy the URL that appears.
+
+- **Open your terminal:** Open your terminal and navigate to the directory where you want to clone the repository.
+
+- **Clone the repository:** Type git clone followed by the URL you copied in step 2. 
+
+  For example:
+
+      git clone https://github.com/your-username/repository-name.git**
+
+  This will download a copy of the repository to your local machine.
+
+- **Make changes and commit:** Now that you have a local copy of the repository, you can make changes to the code or docs as you wish. Once you have made changes, use the git add and git commit commands to stage and commit your changes.
+
+- **Push changes:** Finally, use the git push command to push your changes back to your own forked repository on GitHub. You can then create a pull request to submit your changes to the original repository for review and merging.
+
+- **Ping the staff:** If the pull request takes longer than expected to get feedback from the `Tailwarden` team, head over to the [Discord Server](https://discord.tailwarden.com) and **ping** a Tailwarden staff member either in the `#general` or `#feedback` channel, unless you are a member of the private `contributor` channel. You can always request access to this channel. 
+
+- **Assigned:** Once your pull request has been opened, it will be assigned to one or more reviewers. Those reviewers will do a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation, comments, and style
+
+- **Updates:** Make sure you include relevant updates or additions to documentation when creating or modifying features.
 Once you’ve received review and approval, your commits are squashed, and your PR is ready for merging.
 
-- Congrats you’re officially a Komiser contributor 🎊
+**Congrats you’re officially a Komiser contributor 🎊**
 
 ### Contributor walk-through video 
 
