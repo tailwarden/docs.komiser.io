@@ -37,8 +37,15 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/tailwarden/komiser',
+          editUrl: function ({
+            locale,
+            version,
+            versionDocsDirPath,
+            docPath,
+            permalink,
+          }) {
+            return 'https://github.com/tailwarden/docs.komiser.io#how-to-contribute-to-the-documentation';
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -1,4 +1,6 @@
-![Readme-banner](./static/img/docs-banner-tw.png)
+![Readme-banner](./static/img/docs-banner-tw.png#gh-dark-mode-only)
+![Readme-banner](./static/img/docs-banner-tw-light.png#gh-light-mode-only)
+
 <h1>Official Komiser Documentation</h1>
 <p>
 This is the repository for the Tailwarden Organization Public Documentation. It is the official Tailwarden site for publishing latest news, blog posts, and documentation from our open source community.
