@@ -134,6 +134,11 @@ const sidebars = {
       type: 'doc',
       id: 'FAQ/faq',
     },
+    {
+      type: 'link',
+      label: 'Changelog',
+      href: 'https://www.tailwarden.com/changelog',
+    },
   ]  
 };
 
