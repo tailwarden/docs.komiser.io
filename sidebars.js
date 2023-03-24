@@ -114,6 +114,10 @@ const sidebars = {
           type: 'doc',
           id: 'Cloud Providers/mongodbatlas',
         },
+        {
+          type: 'doc',
+          id: 'Cloud Providers/gcp',
+        },
       ],
     },
     {
