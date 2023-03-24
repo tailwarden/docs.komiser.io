@@ -1,66 +1,80 @@
-# Google Cloud Provider
+---
+slug: /cloud-providers/google-cloud-platform
+title: Google Cloud Platform
+sidebar_label: Google Cloud Platform (GCP)
+---
 
-## Local Komiser CLI (Single Account)
+# Google Cloud Platform
+
+## Supported resources
+
+- Cloud Storage Buckets
+- Compute Engine VM Instances
+
+
+## Local Komiser CLI (Single account)
+
+Komiser now supports multiple cloud accounts by default. Account configuration is done through the `config.toml` file, just pass in your account credentials as shown below.
+
+We've also added 2 methods of persisting your account data.
+### Postgres
+#### Add to config.toml file
+```
+[postgres]
+  uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
+```
+### SQLite
+
+```
+[sqlite]
+  file = "komiser.db"
+```
 
 ### Configuring Credentials
 
-When using the CLI with GCP, Komiser checks to see if the environment variable `GOOGLE_APPLICATION_CREDENTIALS` is set. If not an error occurs.
+To enable Komiser collecting your GCP resources, you need to have a [Service Account](https://cloud.google.com/iam/docs/service-account-overview) setup with at least the following permissions:
 
-### Create a Service Account
-* Create a service account with *Viewer* permission, see [Creating and managing service accounts](https://cloud.google.com/iam/docs/creating-managing-service-accounts) docs.
+- `storage.buckets.list` to list Buckets
+- `compute.instances.list` to list VM instances
+- `monitoring.timeSeries.list` to allow for cost estimation of your Buckets
 
-### Enable APIs to access your GCP project
-* Enable the below APIs for your project through GCP Console, `gcloud` or using the Service Usage API. You can find out more about these options in [Enabling an API in your GCP project](https://cloud.google.com/endpoints/docs/openapi/enable-api) docs.
-    * appengine.googleapis.com
-    * bigquery-json.googleapis.com 
-    * compute.googleapis.com 
-    * cloudfunctions.googleapis.com
-    * container.googleapis.com
-    * cloudresourcemanager.googleapis.com
-    * cloudkms.googleapis.com
-    * dns.googleapis.com
-    * dataflow.googleapis.com
-    * dataproc.googleapis.com
-    * iam.googleapis.com
-    * monitoring.googleapis.com
-    * pubsub.googleapis.com
-    * redis.googleapis.com
-    * serviceusage.googleapis.com
-    * storage-api.googleapis.com
-    * sqladmin.googleapis.com 
+Create and download the Service Account as JSON from the GCP console and store it on your machine. Add the following configuration to your `config.toml`:
 
-### Export `Daily cost` to BigQuery
-* To analyze and optimize the infrastructure cost, you need to export your daily cost to BigQuery, see [Export Billing to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery) docs.
+```toml
+[[gcp]]
+  name="Sandbox"
+  serviceAccountKeyPath="/path/to/serviceAccount/serviceAccount.json"
 
-### Set environment variables locally
-* Provide authentication credentials to your application code by setting the environment variable *GOOGLE_APPLICATION_CREDENTIALS*:
-
-``` 
-export GOOGLE_APPLICATION_CREDENTIALS="[PATH]"
+[sqlite]
+  file="komiser.db
 ```
+
+The `name` can be anything you want. You can use different names in the case you want to connect more than one GCP account. 
+
+Find your `organizationId` by pressing on the gear icon next to your Organization name.
 
 ### Run it!
-* That should be it. Try out the following command from your command prompt to start the server:
+* That should be it. Try out the following from your command prompt to start the server:
 
 ```
-komiser start --port 3000 --dataset project-id.dataset-name.table-name
+komiser start 
 ```
 
-* Point your browser to http://localhost:3000
+* Point your browser to `http://localhost:3000`
 
-<p align="center">
-    <img src="https://cdn.komiser.io/images/dashboard-gcp.png"/>
-</p>
-
-## Options
+## Local Komiser CLI (Multiple accounts)
+Simply add more authentication blocks to the configuration file
 
 ```
-komiser start [OPTIONS]
-```
+[[gcp]]
+  name="AccountOne"
+  serviceAccountKeyPath="/path/to/serviceAccount/serviceAccount1.json"
 
-```
-   --port value, -p value      Server port (default: 3000)
-   --duration value, -d value  Cache expiration time (default: 30 minutes)
-   --redis value, -r value     Redis server (localhost:6379)
-   --dataset value, -ds value  BigQuery dataset name (project-id.dataset-name.table-name)
+[[gcp]]
+  name="AccountTwo"
+  serviceAccountKeyPath="/path/to/serviceAccount/serviceAccount2.json"
+
+[sqlite]
+  file="komiser.db
+
 ```
