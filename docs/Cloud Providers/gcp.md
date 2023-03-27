@@ -78,3 +78,28 @@ Simply add more authentication blocks to the configuration file
   file="komiser.db
 
 ```
+
+## Run with Docker
+
+To expose the local Service Account file to the Docker container, run Komiser with following command:
+
+```
+  docker run \
+    -v /path/to/config.toml:/etc/config/config.toml \
+    -v /path/to/serviceAccount.json:/etc/config/serviceAccount.json \
+    -d -p 3000:3000 --name komiser tailwarden/komiser:latest \
+    komiser start --config /etc/config/config.toml
+```
+
+where `/path/to/serviceAccount.json` is the absolute path to the local file on your machine.
+
+Your `config.toml` should then look like this:
+
+```
+[[gcp]]
+  name="DockerAccount"
+  serviceAccountKeyPath="/etc/config/serviceAccount.json"
+
+[sqlite]
+  file="komiser.db
+```
