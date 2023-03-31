@@ -26,12 +26,16 @@ sidebar_label: Amazon Web Services
 - ElasticSearch clusters
 - Elastic LoadBalancers
 - IAM roles
+- IAM policies
 - KMS keys
 - Lambda functions
 - RDS clusters
 - S3 buckets
 - SNS topics
 - SQS queues
+- EC2 Internet Gateways
+- Elastic IPs
+- CloudWatch Dashboards
 
 ## Komiser configurations
 From Komiser v3 onwards we specify our komiser configuration by way of a `config.toml` file. If you place the config.toml file in the same directory as the Komiser binary then it will pick it up by default, if it's placed in a different location, then we need to pass in the path using the `--config` flag. 
