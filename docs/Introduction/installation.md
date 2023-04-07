@@ -12,13 +12,13 @@ You can install the CLI with a `curl` utility script or by downloading the binar
 ### Linux
 
 ```
-wget https://cli.komiser.io/3.0.10/komiser_Linux_x86_64 -O komiser
+wget https://cli.komiser.io/3.0.11/komiser_Linux_x86_64 -O komiser
 ```
 
 ### Windows
 
 ```
-wget https://cli.komiser.io/3.0.10/komiser_Windows_x86_64.zip
+wget https://cli.komiser.io/3.0.11/komiser_Windows_x86_64.zip
 tar -xf komiser_Windows_x86_64.zip
 ```
 
@@ -27,13 +27,13 @@ tar -xf komiser_Windows_x86_64.zip
 For ARM architecture (M1 & M2 Chip)
 
 ```
-wget https://cli.komiser.io/3.0.10/komiser_Darwin_arm64 -O komiser
+wget https://cli.komiser.io/3.0.11/komiser_Darwin_arm64 -O komiser
 ```
 
 For AMD architecture (Intel Chip)
 
 ```
-wget https://cli.komiser.io/3.0.10/komiser_Darwin_x86_64 -O komiser
+wget https://cli.komiser.io/3.0.11/komiser_Darwin_x86_64 -O komiser
 ```
 
 > Note
