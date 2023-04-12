@@ -19,11 +19,11 @@ npm test
 
 ### How to Run Locally
 
-1. Clone this repository: `git clone "https://github.com/tailwarden/docs.git"`
+1. Clone this repository: `git clone "https://github.com/tailwarden/docs.komiser.io.git"`
 2. Run the commands :
     1. `npm install`
-    2. `npm run docusaurus:build`
-    3. `npm run docusaurus:serve`
+    2. `npm run build`
+    3. `npm run start`
 3. The site will be running locally on `http://localhost:3000`
 
 ### How To Contribute To the Documentation
