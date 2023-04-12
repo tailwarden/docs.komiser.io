@@ -8,15 +8,6 @@ This is the repository for the Tailwarden Organization Public Documentation. It 
 
 </div>
 
-## How To Run Tests
-
-In order to make sure your changes have not broken anything, you can run the following commands before pushing your changes to gitHub.
-
-```sh
-npm install
-npm test
-```
-
 ### How to Run Locally
 
 1. Clone this repository: `git clone "https://github.com/tailwarden/docs.komiser.io.git"`
