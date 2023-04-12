@@ -8,9 +8,12 @@ sidebar_label: Google Cloud Platform (GCP)
 
 ## Supported resources
 
+- Certificate Manager
 - Cloud Storage Buckets
 - Compute Engine VM Instances
-
+- IAM Roles
+- IAM Service Accounts
+- SQL Instances
 
 ## Local Komiser CLI (Single account)
 
