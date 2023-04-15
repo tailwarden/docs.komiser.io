@@ -7,10 +7,10 @@ sidebar_label: Oracle Cloud Infrastructure (OCI)
 # Oracle Cloud Infrastructure (OCI)
 
 ## Supported resources
-- Compute instances
-- Identity policies
 - Autonomous databases
+- Compute instances
 - Functions
+- Identity policies
 - Object storage
 - Storage block volumes
 

@@ -8,11 +8,11 @@ sidebar_label: Scaleway
 
 ## Supported resources
 - Compute Instances
-- Load Balancers
-- Kubernetes Clusters
 - Container Registries
-- Functions
 - Databases
+- Functions
+- Kubernetes Clusters
+- Load Balancers
 - Serverless Containers
 
 ## Local Komiser CLI (Single account)

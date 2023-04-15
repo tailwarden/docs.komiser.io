@@ -7,11 +7,11 @@ sidebar_label: Linode
 # Linode
 
 ## Supported resources
+- Buckets
 - Compute instances
+- Databases
 - Firewalls
 - NodeBalancers
-- Buckets
-- Databases
 - Volumes
 
 ## Local Komiser CLI (Single account)

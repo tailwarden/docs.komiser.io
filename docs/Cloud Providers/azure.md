@@ -7,9 +7,9 @@ sidebar_label: Azure
 # Azure
 
 ## Supported resources
-- Virtual Machines
 - Disks
 - Machine Images
+- Virtual Machines
 
 ## Local Komiser CLI (Single account)
 
