@@ -36,13 +36,15 @@ Komiser supports multiple cloud providers and form of deployment.
 Follow the links below to get the installation steps for the each cloud provider:
 
 - [AWS](/docs/cloud-providers/aws)
+- [Azure](/docs/cloud-providers/azure)
 - [Civo](/docs/cloud-providers/civo)
 - [DigitalOcean](/docs/cloud-providers/digital-ocean)
-- [OCI](/docs/cloud-providers/oci)
 - [Kubernetes](/docs/cloud-providers/kubernetes)
 - [Linode](/docs/cloud-providers/linode)
-- [Tencent](/docs/cloud-providers/tencent)
 - [MongoDB Atlas](/docs/cloud-providers/mongodb-atlas)
+- [OCI](/docs/cloud-providers/oci)
+- [Scaleway](/docs/cloud-providers/scaleway)
+- [Tencent](/docs/cloud-providers/tencent)
 
 ## Contributing
 
