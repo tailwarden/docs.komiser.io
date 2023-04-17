@@ -8,8 +8,8 @@ sidebar_label: Civo
 
 ## Supported resources
 - Compute instances
-- Kubernetes clusters
 - Firewalls
+- Kubernetes clusters
 - LoadBalancers
 - Networks
 - Object stores
