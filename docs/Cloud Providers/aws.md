@@ -140,7 +140,7 @@ role_session_name = komiser_session
 * Create an IAM user with the following IAM [policy](https://raw.githubusercontent.com/mlabouardy/komiser/master/policy.json):
 
 ```
-wget https://komiser.s3.amazonaws.com/policy.json
+wget https://raw.githubusercontent.com/mlabouardy/komiser/master/policy.json
 ```
 ### Add user credentials locally
 * Add your **Access Key ID** and **Secret Access Key** to *~/.aws/credentials* using this format
