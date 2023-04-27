@@ -18,7 +18,7 @@ sidebar_label: Amazon Web Services
 - EC2 Internet Gateways
 - EC2 instances
 - EC2 Snapshots
-- EC2 Spot intances
+- EC2 Spot instances
 - EC2 Key pairs
 - EC2 Placement groups
 - ECR repositories
