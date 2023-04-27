@@ -10,10 +10,17 @@ sidebar_label: Google Cloud Platform (GCP)
 
 - Certificate Manager
 - Cloud Storage Buckets
+- Cloud Functions
 - Compute Engine VM Instances
 - IAM Roles
 - IAM Service Accounts
 - SQL Instances
+- BigQuery tables
+- SSL certificates
+- Redis instances
+- Gateways
+- KMS Keys
+- Disks
 
 ## Local Komiser CLI (Single account)
 

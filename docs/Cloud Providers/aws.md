@@ -12,9 +12,15 @@ sidebar_label: Amazon Web Services
 - CloudFront distributions
 - CloudWatch Dashboards
 - CloudWatch alarms
+- CloudWatch metrics
+- CloudWatch Log groups
 - DynamoDB tables
 - EC2 Internet Gateways
 - EC2 instances
+- EC2 Snapshots
+- EC2 Spot intances
+- EC2 Key pairs
+- EC2 Placement groups
 - ECR repositories
 - ECS clusters
 - ECS services
@@ -26,6 +32,7 @@ sidebar_label: Amazon Web Services
 - ElasticSearch clusters
 - IAM policies
 - IAM roles
+- IAM SAML providers
 - KMS keys
 - Lambda functions
 - RDS clusters
@@ -36,6 +43,7 @@ sidebar_label: Amazon Web Services
 - Subnets
 - VPCs
 - Volumes
+- OpenSearch domains
 
 ## Komiser configurations
 From Komiser v3 onwards we specify our komiser configuration by way of a `config.toml` file. If you place the config.toml file in the same directory as the Komiser binary then it will pick it up by default, if it's placed in a different location, then we need to pass in the path using the `--config` flag. 
