@@ -65,7 +65,6 @@ const config = {
         apiKey:'9983878ae17ae51850aa1eefd20aef16',
         appId:'XWL4T9EL2T',
         indexName:'komiser',
-        contextualSearch:true,
         placeholder:'search'
       },
       colorMode: {
