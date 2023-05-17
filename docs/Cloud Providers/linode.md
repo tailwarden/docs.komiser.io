@@ -41,7 +41,7 @@ Firstly grab your Personal Access token from your Linode account.
 
 Need help finding it? Head on over to the official Civo [documentation](https://www.linode.com/docs/products/tools/api/guides/manage-api-tokens/).
 
-### Add your Linode API token to your confuriation file
+### Add your Linode API token to your configuration file
 
 ```
 [[linode]]

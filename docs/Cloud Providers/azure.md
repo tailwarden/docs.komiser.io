@@ -70,7 +70,7 @@ The output should look something like this:
 }
 ```
 
-### Add your Azure environment variables to your confuriation file
+### Add your Azure environment variables to your configuration file
 
 Copy them from the output of `az ad sp create-for-rbac`. Check the mapping below for each value.
 
