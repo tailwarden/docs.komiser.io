@@ -39,7 +39,7 @@ Firstly grab your API key from your Civo account.
 Under `Profile/Security/API key`
 Need help finding it? Head on over to the official Civo [documentation](https://www.civo.com/docs/account/api-keys).
 
-### Add your Civo API token to your confuriation file
+### Add your Civo API token to your configuration file
 
 ```
 [[civo]]

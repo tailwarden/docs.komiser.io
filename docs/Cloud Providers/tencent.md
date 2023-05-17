@@ -42,7 +42,7 @@ Firstly grab your Personal Access token from your Tencent account.
 
 Need help finding it? Head on over to the official Tencent [documentation](https://www.tencentcloud.com/document/product/1132/44731).
 
-### Add your Tencent Access token to your confuriation file
+### Add your Tencent Access token to your configuration file
 
 ```
 [[tencent]]
