@@ -64,7 +64,12 @@ const sidebars = {
               {
                 type: 'doc',
                 id: 'Guides/How to Komiser/dashboard',
-              }
+              },
+              {
+                type: 'doc',
+                id: 'Guides/How to Komiser/alerts',
+              },
+
             ]
           },
         ]

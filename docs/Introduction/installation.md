@@ -135,28 +135,6 @@ docker run -v /local/path/to/config.toml:/etc/config/config.toml  -v /local/path
   </iframe>
 </div>
 
-## Slack integration (Alerts)
-
-To integrate Komiser with Slack you will have to generate a webhook and add it to the `config.toml` file.
-Find the steps to generate the slack webhook in the official slack documentation [here](https://api.slack.com/messaging/webhooks).
-
-### Steps to integrate Komiser with Slack: 
-- Create a Slack app (if you don't have one already) 
-- Enable Incoming Webhooks 
-- Create an Incoming Webhook
-- Pick a channel that the app will post to, and then click to `Authorize your app`
-- You'll be sent back to your app settings, and you should now see a new entry under the Webhook URLs for Your Workspace section, with a Webhook URL that'll look something like this
-
-```
-https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX
-```
-Then simply add the `[slack]` block to your `config.toml` file
-
-```
-[slack]
-webhook="https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
-```
-
 ## Self-hosted
 
 Head over to your cloud provider of choice to learn how to connect your Komiser CLI to your cloud account and to deploy a self hosted version of the tool. 
