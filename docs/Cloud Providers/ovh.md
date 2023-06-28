@@ -10,6 +10,8 @@ Choose between these two methods of persisting your OVH account data.
 [postgres]
 uri="postgres://postgres:komiser@localhost:5432/komiser?sslmode=disable"
 ```
+Note: For Postgres, Komiser anticipates the existence of a role `postgres` and a database `komiser` on the local Postgres server.
+
 #### SQLite
 
 ```
