@@ -12,22 +12,29 @@ This is the repository for the Tailwarden Organization Public Documentation. It 
 
 1. Clone this repository: `git clone "https://github.com/tailwarden/docs.komiser.io.git"`
 2. Run the commands :
-    1. `npm install`
-    2. `npm run build`
-    3. `npm run start`
+   1. `npm install`
+   2. `npm run build`
+   3. `npm run start`
 3. The site will be running locally on `http://localhost:3000`
 
 ### How To Contribute To the Documentation
 
 1. Fork this repository
 2. Create your documentation branch: `git checkout -b branch-name`
-3. Make changes to the documentation in markdown
-4. Add changes to the staging area `git add .`
-5. Commit your changes using the command `git commit -m 'commit message'`
-6. Push your changes to gitHub `git push origin branch-name`
-7. Create new Pull Request
+3. Check the version you want to contribute to in the version_docs folder.
+4. Make changes to the particular version documentation in markdown
+5. Add changes to the staging area `git add .`
+6. Commit your changes using the command `git commit -m 'commit message'`
+7. Push your changes to gitHub `git push origin branch-name`
+8. Create new Pull Request
 
+### How to Publish a new version For Maintainers
+
+1. Add your changes to the docs folder.
+1. Run the commands :
+   1. `npm run publish-version`
+1. Commit your changes and push to github.
 
 ## History
 
-### v1.0.0 (Aug, 2022)
+### v1.0.0 (Aug, 2023)
