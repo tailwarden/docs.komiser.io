@@ -8,26 +8,65 @@ This is the repository for the Tailwarden Organization Public Documentation. It 
 
 </div>
 
-### How to Run Locally
+## How to Run Locally
 
-1. Clone this repository: `git clone "https://github.com/tailwarden/docs.komiser.io.git"`
-2. Run the commands :
-    1. `npm install`
-    2. `npm run build`
-    3. `npm run start`
-3. The site will be running locally on `http://localhost:3000`
+Follow these steps to run the project locally on your machine:
 
-### How To Contribute To the Documentation
+1. **Clone this repository**: Open your terminal and use the following command to clone the repository to your local machine:
 
-1. Fork this repository
-2. Create your documentation branch: `git checkout -b branch-name`
-3. Make changes to the documentation in markdown
-4. Add changes to the staging area `git add .`
-5. Commit your changes using the command `git commit -m 'commit message'`
-6. Push your changes to gitHub `git push origin branch-name`
-7. Create new Pull Request
+   ```
+   git clone "https://github.com/tailwarden/docs.komiser.io.git"
+   ```
 
+2. **Install dependencies and build**: Run the following commands one after another to install the project dependencies and build the application:
 
-## History
+   ```
+   npm install
+   npm run build
+   ```
 
-### v1.0.0 (Aug, 2022)
+3. **Start the local server**: Finally, start the local development server with the following command:
+
+   ```
+   npm run start
+   ```
+
+4. **Access the site locally**: Once the server starts, you can access the website locally in your web browser at `http://localhost:3000`.
+
+## How to Contribute to the Documentation
+
+We welcome contributions to improve our documentation. Follow these steps to make a contribution:
+
+1. **Fork this repository**: Click the "Fork" button at the top-right of this page to create a fork of the repository on your GitHub account.
+
+2. **Create a documentation branch**: Switch to a new branch to work on your documentation changes:
+
+   ```
+   git checkout -b branch-name
+   ```
+
+3. **Choose the version**: Locate the version you want to contribute to in the `version_docs` folder.
+
+4. **Make changes to the documentation**: Edit the documentation in Markdown format for the particular version.
+
+5. **Add changes to the staging area**: Add your changes to the staging area in preparation for commit:
+
+   ```
+   git add .
+   ```
+
+6. **Commit your changes**: Commit your changes with a meaningful commit message describing the updates made:
+
+   ```
+   git commit -m 'Your commit message here'
+   ```
+
+7. **Push your changes to GitHub**: Push the changes to your GitHub repository:
+
+   ```
+   git push origin branch-name
+   ```
+
+8. **Create a new Pull Request**: Go to your GitHub repository, switch to the new branch, and click the "New Pull Request" button. Submit the Pull Request to the main repository for review and merging.
+
+Thank you for contributing to our documentation! Your efforts help make our project better for everyone.

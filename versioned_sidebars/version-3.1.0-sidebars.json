@@ -1,0 +1,131 @@
+{
+  "mySidebar": [
+    {
+      "type": "doc",
+      "id": "intro"
+    },
+    {
+      "type": "category",
+      "label": "Introduction",
+      "items": [
+        {
+          "type": "doc",
+          "id": "Introduction/what-is-komiser"
+        },
+        {
+          "type": "doc",
+          "id": "Introduction/installation"
+        },
+        {
+          "type": "doc",
+          "id": "Introduction/community"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Guides",
+      "items": [
+        {
+          "type": "category",
+          "label": "How to Komiser",
+          "items": [
+            {
+              "type": "doc",
+              "id": "Guides/How to Komiser/overview"
+            },
+            {
+              "type": "doc",
+              "id": "Guides/How to Komiser/tagging"
+            },
+            {
+              "type": "doc",
+              "id": "Guides/How to Komiser/customviews"
+            },
+            {
+              "type": "doc",
+              "id": "Guides/How to Komiser/dashboard"
+            },
+            {
+              "type": "doc",
+              "id": "Guides/How to Komiser/alerts"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Cloud Providers",
+      "items": [
+        {
+          "type": "doc",
+          "id": "Cloud Providers/aws"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/azure"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/civo"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/digital-ocean"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/oci"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/k8s"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/linode"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/tencent"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/scaleway"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/mongodbatlas"
+        },
+        {
+          "type": "doc",
+          "id": "Cloud Providers/gcp"
+        }
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Contributing",
+      "items": [
+        {
+          "type": "doc",
+          "id": "Contributing/contribute"
+        }
+      ]
+    },
+    {
+      "type": "doc",
+      "id": "Telemetry/telemetry"
+    },
+    {
+      "type": "doc",
+      "id": "FAQ/faq"
+    },
+    {
+      "type": "link",
+      "label": "Changelog",
+      "href": "https://www.tailwarden.com/changelog"
+    }
+  ]
+}

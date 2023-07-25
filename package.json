@@ -11,6 +11,7 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
+    "publish-version": "read -p \"Enter the version you want to publish: \" version && npm run docusaurus docs:version -- \"$version\"",
     "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
