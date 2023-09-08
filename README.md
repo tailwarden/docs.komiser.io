@@ -2,6 +2,10 @@
 ![Readme-banner](./static/img/docs-banner-tw-light.png#gh-light-mode-only)
 
 <h1>Official Komiser Documentation</h1>
+
+DEPRECATED!
+
+You can find the up-to-date Komiser documentation at ==> https://github.com/tailwarden/komiser/tree/develop/docs
 <p>
 This is the repository for the Tailwarden Organization Public Documentation. It is the official Tailwarden site for publishing latest news, blog posts, and documentation from our open source community.
 </p>
